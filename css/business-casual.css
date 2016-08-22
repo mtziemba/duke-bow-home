@@ -236,16 +236,20 @@ footer p {
     left: 0;
     right: 0
 }
-.portfolio-caption h3 {
+.portfolio-caption a.portfolio-link h3 {
   text-align: center;
   text-transform: uppercase;
   padding-top: 10px;
+  text-decoration: none;
+  color: #333333;
 }
-.portfolio-caption p {
+
+.portfolio-caption a.portfolio-link:hover h3, a.portfolio-link:visited h3, a.portfolio-link:link h3 {
   text-align: center;
-  font-family: 'Merriweather';
-  font-size: 10pt;
-  font-style: italic;
+  text-transform: uppercase;
+  padding-top: 10px;
+  text-decoration: none;
+  color: #333333;
 }
 
 .ih-item.square.effect3 {
