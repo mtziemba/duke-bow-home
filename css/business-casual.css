@@ -247,9 +247,14 @@ footer p {
 .portfolio-caption a.portfolio-link:hover h3, a.portfolio-link:visited h3, a.portfolio-link:link h3 {
   text-align: center;
   text-transform: uppercase;
-  padding-top: 10px;
+  padding-top: 5px;
   text-decoration: none;
   color: #333333;
+}
+
+.portfolio-caption p {
+    text-align: center;
+    text-size: 11pt;
 }
 
 .ih-item.square.effect3 {
