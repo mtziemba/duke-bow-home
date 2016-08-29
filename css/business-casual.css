@@ -38,6 +38,12 @@ hr {
     border-color: #999999;
 }
 
+ul {
+  font-family: 'Merriweather', serif;
+  font-size: 1.25em;
+  color: #000;
+}
+
 .brand,
 .address-bar {
     font-family: 'Merriweather', serif;
@@ -389,3 +395,5 @@ footer p {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
+
+
