@@ -396,4 +396,32 @@ footer p {
   backface-visibility: hidden;
 }
 
+.btn.btn-secondary {
+  font-family: "Merriweather";
+}
 
+.btn.btn-primary {
+  font-family: "Merriweather";
+  background-color: #242445;
+  border-color: #31315f;
+}
+
+.btn-primary:focus,
+.btn-primary.focus {
+  color: #fff;
+  background-color: #31315f;
+  border-color: #31315f;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #31315f;
+  border-color: #31315f;
+}
+
+.a.btn.btn-secondary {
+  color: #242445;
+}
+
+.center {
+    text-align: center;
+}
