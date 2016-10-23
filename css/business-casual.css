@@ -425,3 +425,17 @@ footer p {
 .center {
     text-align: center;
 }
+
+@media screen and (min-width: 768px) {
+  ul.nav.navbar-nav li a {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+}
+
+@media screen and (min-width: 1200px) {
+  ul.nav.navbar-nav li a {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+}
