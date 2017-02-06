@@ -70,6 +70,7 @@ ul {
 .brand-before,
 .brand-name {
     text-transform: capitalize;
+    text-align: center;
 }
 
 .brand-before {
@@ -438,4 +439,49 @@ footer p {
   padding-left: 35px;
   padding-right: 35px;
 }
+}
+
+.splash {
+  height: 100%;
+  width: 100%;
+  background:
+  linear-gradient(
+      rgba(36, 36, 69, 0.45), 
+      rgba(36, 36, 69, 0.45)
+    ),
+    /* bottom, image */
+    url('https://s29.postimg.org/4h4aszl8n/models.jpg');
+}
+
+.text {
+  padding-top: 5%;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.text h4 {
+  font-size: 20px;
+  text-align: center;
+  color: #EAE1E1;
+}
+
+.text h1 {
+  text-align: center;
+  font-size: 70px;
+  color: #EAE1E1;
+}
+
+.text h2 {
+  bottom: 0;
+  text-align: center;
+  font-size: 30px;
+  color: #EAE1E1;
+}
+
+.text p {
+  font-family: 'Oswald';
+  text-align: center;
+  color: #EAE1E1;
+  text-transform: uppercase;
+  font-size: 40px;
 }
