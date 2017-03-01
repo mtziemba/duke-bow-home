@@ -527,3 +527,28 @@ footer p {
 #new {
   color: #D0373A;
 }
+
+.subtitle {
+  font-style: italic;
+  text-align: center;
+}
+
+.blog-preview img {
+  max-height: 200px;
+}
+
+.blog-preview h4 {
+  font-size: 26pt;
+}
+
+.blog-preview h5 {
+  font-size: 12pt;
+}
+
+.blog-preview p {
+  font-size: 12pt;
+}
+
+#back-to-blog {
+  font-family: 'Merriweather', serif;
+}
