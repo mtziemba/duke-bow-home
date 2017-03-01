@@ -429,6 +429,23 @@ footer p {
 
 @media screen and (min-width: 768px) {
   ul.nav.navbar-nav li a {
+  font-size: 13px;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+}
+
+@media screen and (min-width: 800px) {
+  ul.nav.navbar-nav li a {
+  font-size: 13px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+}
+
+@media screen and (min-width: 1100px) {
+  ul.nav.navbar-nav li a {
+    font-size: 16px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -436,8 +453,9 @@ footer p {
 
 @media screen and (min-width: 1200px) {
   ul.nav.navbar-nav li a {
-  padding-left: 35px;
-  padding-right: 35px;
+    font-size: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 }
 
@@ -495,4 +513,13 @@ footer p {
   height: 50px;
   display: block;
   margin: auto;
+}
+
+.post-body {
+  font-size: 12pt;
+}
+
+.question {
+  font-weight: bold;
+  font-style: italic;
 }
