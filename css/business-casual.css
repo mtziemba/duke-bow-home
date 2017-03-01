@@ -565,3 +565,13 @@ footer p {
 #share-buttons {
   padding-bottom: 20px;
 }
+
+/*.snippet {
+  width: 250px;
+}*/
+.snippet img{ 
+  width: 100%;
+  max-width: 200px; 
+  height:auto; 
+  float: left; 
+}
