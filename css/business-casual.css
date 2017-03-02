@@ -520,9 +520,13 @@ footer p {
   font-size: 12pt;
 }
 
+.post-intro {
+  font-style: italic;
+}
+
 .question {
   font-weight: bold;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 #new {
