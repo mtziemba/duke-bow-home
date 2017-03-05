@@ -579,3 +579,17 @@ footer p {
   height:auto; 
   float: left; 
 }
+
+#blog-homepage-photo {
+  width: 75%;
+  margin: auto;
+}
+
+#blog-homepage-title {
+  font-size: 600%;
+}
+
+#blog-photo {
+  margin: auto;
+  padding-bottom: 20px;
+}
