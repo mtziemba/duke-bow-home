@@ -1,0 +1,52 @@
+.headertext {
+    color: black;
+    text-shadow: #999 2px 2px 2px
+}
+
+.menulink A:link {
+    text-decoration: none;
+    color: #777777
+}
+
+.menulink A:visited {
+    text-decoration: none;
+    color: #777777
+}
+
+.menulink A:active {
+    text-decoration: none;
+    color: #777777
+}
+
+.menulink A:hover {
+    text-decoration: underline;
+    color: #777777
+}
+
+A:link {
+    text-decoration: none;
+    color: #777777
+}
+
+A:visited {
+    text-decoration: none;
+    color: #777777
+}
+
+A:active {
+    text-decoration: none;
+    color: #777777
+}
+
+A:hover {
+    text-decoration: underline;
+    color: #777777
+}
+
+p {
+    font-size: 100%
+}
+
+p:hover {
+    text-decoration: none
+}

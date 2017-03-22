@@ -1,0 +1,622 @@
+<HTML>
+
+<HEAD>
+    <TITLE>CPS 270: Introduction to Artificial Intelligence, Spring 2016</TITLE>
+</HEAD>
+
+<BODY BGCOLOR=#FFFFFF>
+    <!--<CENTER>-->
+    <TABLE NAME=ContentTable CELLSPACING=30>
+        <TR>
+            <TD>
+                <IMG WIDTH=250 SRC=dukelogo.png>
+            </TD>
+            <TD WIDTH=850>
+                <DIV class=headertext ID=PageTop>
+                    <FONT FACE="sans-serif" SIZE=+6>CPS 270: Introduction to Artificial Intelligence (Spring 2016)
+                        <BR> </DIV>
+            </TD>
+            <TR>
+                <TD VALIGN=TOP WIDTH=200>
+                    <FONT SIZE="+1">
+                        <FONT FACE="sans-serif">
+                            <SPAN CLASS=menulink>
+              <A HREF="#Overview">Overview</A> <BR><BR>
+              <A HREF="#Syllabus">Syllabus</A><BR><BR>
+              <A HREF="#Prerequisites">Prerequisites</A><BR><BR>
+              <A HREF="#Schedule">Schedule</A><BR><BR>
+              <A HREF="#Assignments">Assignments</A><BR><BR>
+              <A HREF="#Grading">Grading</A><BR><BR>
+              <A HREF="#Resources">Resources</A><BR><BR>
+              <A HREF="https://piazza.com/duke/spring2016/compsci270/home">Piazza</A><BR><BR>
+            </SPAN>
+                        </FONT>
+                    </FONT>
+                </TD>
+                <TD VALIGN=TOP WIDTH=750>
+                    <P>
+                        <FONT FACE="sans-serif" Size=+1>
+                            <B ID=Overview>Overview</B>
+                        </FONT>
+                    </P>
+                    <HR HEIGHT=2>
+                    <P>
+                        Algorithms and representations used in artificial intelligence. Introduction and implementation of algorithms for search, planning, perception, knowledge representation, logic, probabilistic representation and reasoning, robotics, and machine learning. </P>
+                    <p>
+                        Some portions of the course will be based on material from Ron Parr's Spring 2014 Intro to AI course.
+                    </p>
+                    <p>
+                        <B><U>Instructor</U></B>
+                        <BR>
+                        <A HREF="http://www.cs.duke.edu/~gdk">George Konidaris</A>
+                        <BR> Office: North 133
+                        <BR> Office Hours: Mondays 5-6pm, Tuesdays 12-1pm
+                        <BR> Email: gdk at cs dot duke dot edu
+                        <BR>
+                        <BR>
+                        <B><U>TA</U></B>
+                        <BR>
+                        <A HREF="https://users.cs.duke.edu/~cam/">Cameron Allen</A>
+                        <BR> Office: N141 North
+                        <BR> Office Hours: Wednesdays 11:30am-12:30pm, Thursdays 11am-12pm, at LSRC D309
+                        <BR> Email: cam at cs dot duke dot edu
+                        <BR>
+                        <BR>
+                        <B><U>UTAs</U></B>
+                        <BR> Diego Farias Canepa
+                        <BR> Office Hours: Mondays 6-9pm at The Link (Perkins Library)
+                        <BR> Email: diego dot farias dot canepa at duke dot edu
+                        <BR>
+                        <BR> Kaighn Kevlin
+                        <BR> Office Hours: Tuesdays 12:55-2:55pm at The Link (Perkins Library)
+                        <BR> Email: kaighn dot kevlin at duke dot edu
+                        <BR>
+                        <BR> Yixin Lin
+                        <BR> Office Hours: Thursdays 4:30pm-7:30pm at The Link (Perkins Library)
+                        <BR> Email: yixin dot lin at duke dot edu
+                        <BR>
+                        <BR> Ying Qi
+                        <BR> Office Hours: Tuesdays 7-9pm, Fridays 12-1pm, at The Link (Perkins Library)
+                        <BR> Email: ying dot qi at duke dot edu
+                        <BR>
+                        <BR> Yilun Zhou
+                        <BR> Office Hours: Mondays 9am-12pm, at North 206.
+                        <BR> Email: yilun at cs dot duke dot edu
+                        <BR>
+                        <BR>
+                        <P>
+                            <A HREF="#PageTop">[Back to top]</A>
+                        </P>
+                        <P>
+                            <FONT FACE="sans-serif" Size=+1>
+                                <B ID=Syllabus>Syllabus</B>
+                            </FONT>
+                        </P>
+                        <HR HEIGHT=2>
+                        <P>
+                            <OL>
+                                <li> Agents and Agenthood
+                                    <li> Search
+                                        <ul>
+                                            <li> Uninformed
+                                                <li> Informed
+                                                    <li> Mini-Max for Game Playing
+                                                        <!-- Constraint satisfaction? -->
+                                        </ul>
+                                        <li> Knowledge Representation and Reasoning
+                                            <ul>
+                                                <li> Propositional Logic
+                                                    <li> First-Order Logic
+                                                        <li> Reasoning and Logical Inference
+                                                            <li> Uncertain Knowledge
+                                                                <ul>
+                                                                    <li> Bayes' Rule
+                                                                        <li> Probabilistic Reasoning
+                                                                            <li> Bayes Nets
+                                                                </ul>
+                                            </ul>
+                                            <li> Planning
+                                                <ul>
+                                                    <li> Task Planning
+                                                        <li> Robot Motion Planning
+                                                </ul>
+                                                <li> Learning
+                                                    <ul>
+                                                        <li> Supervised Learning
+                                                            <li> Unsupervised Learning
+                                                                <li> Reinforcement Learning
+                                                    </uL>
+                                                    <li> Philosophy of AI
+                            </OL>
+                            <P>
+                                <A HREF="#PageTop">[Back to top]</A>
+                            </P>
+                            <P>
+                                <FONT FACE="sans-serif" Size=+1>
+                                    <B ID=Prerequisites>Prerequisites</B>
+                                </FONT>
+                            </P>
+                            <HR HEIGHT=2>
+                            <P>
+                                You should be comfortable independently writing and debugging programs in C, C++, or Java. (The actual assignments with be in Python, but there will be a Python tutorial early in the semester.)
+                                <BR>
+                                <BR> You should be able to do short proofs.
+                                <BR>
+                                <BR> You should be comfortable with the core computer science concepts of computational complexity and the analysis of algorithms.
+                                <BR>
+                                <BR> You should know some calculus. Basic probability and statistics are helpful but not required.
+                                <P>
+                                    <A HREF="#PageTop">[Back to top]</A>
+                                </P>
+                                <P>
+                                    <FONT FACE="sans-serif" Size=+1>
+                                        <B ID=Schedule>Schedule</B>
+                                    </FONT>
+                                </P>
+                                <HR HEIGHT=2>
+                                <P>
+                                    The first class is on
+                                    <B>Wednesday January 13th</B>. The class meets on a Monday-Wednesday schedule, from 3:05pm to 4:20pm in
+                                    <B>LSRC B101</B>.
+                                </P>
+                                <P>
+                                    Note that the schedule below is <b>tentative</b>, and may be revised as we go along.
+                                </P>
+                                <P>
+                                    <CENTER>
+                                        <TABLE NAME="scheduletable" width=80% BORDER=1>
+                                            <TR>
+                                                <TH>Date</TH>
+                                                <TH>Topic</TH>
+                                                <TH>Homework</TH>
+                                                <TH>Slides</TH>
+                                            </TR>
+                                            <TR>
+                                                <TD>January 13th</TD>
+                                                <TD>Introduction</TD>
+                                                <TD>Read chapters 1 and 2
+                                                    <br>
+                                                    <a href=h ttps://www.cs.duke.edu/courses/spring15/compsci101/install.html>install
+                                                                    python (point 3) (with thanks to Susan Rodger)</a>
+                                                    <br> Download <a href=s earch.zip>search.zip</a>
+                                                    <br> Run pacman.py (complete ASAP)
+                                                    <br>
+                                                    <a href=h ttp://inst.eecs.berkeley.edu/~cs188/fa10/projects/tutorial/tutorial.html#Python Basics>Familiarize yourself with Python</a>
+                                                    <br> (Nothing to turn in)
+                                                    <br> Eclipse users, try <a href=h ttp://www.cs.duke.edu/courses/common/pythonconsole/>python console in eclipse</a>
+                                                </TD>
+                                                <TD>
+                                                    <A HREF="slides/270_1.pdf">PDF</A> </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>January 18th</TD>
+                                                <TD>
+                                                    <B>No class - Martin Luther King day</B>
+                                                </TD>
+                                                <TD></TD>
+                                                <TD></TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>January 20th</TD>
+                                                <TD>Uninformed search.</TD>
+                                                <TD>Read chapter 3 (up to but not including 3.5)</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_2.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>January 25th</TD>
+                                                <TD>Python Tutorial</TD>
+                                                <TD>(Cam Allen)
+                                                    <BR>
+                                                    <A HREF="hw1">Homework 1 available</A>
+                                                </TD>
+                                                <TD>
+                                                    <A HREF="slides/python-static.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>January 27th</TD>
+                                                <TD>Informed Search</TD>
+                                                <TD>Read the remainder of Chapter 3.</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_3.pdf">PDF</A>
+                                                    <BR>
+                                                    <A HREF="slides/astar.pdf">A* proof</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>February 1st</TD>
+                                                <TD>Game Playing and Minimax Search</TD>
+                                                <TD>Read chapter 5, up to and including 5.4.
+                                                </TD>
+                                                <TD>
+                                                    <A HREF="slides/270_4.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>February 3rd</TD>
+                                                <TD>Knowledge Representation and Reasoning: Propositional Logic</TD>
+                                                <TD>Chapter 7</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_5.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>February 8th</TD>
+                                                <TD>KRR: First-Order Logic</TD>
+                                                <TD>Chapters 8 and 9.</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_6.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>February 10th</TD>
+                                                <TD>Uncertainty</TD>
+                                                <TD>Chapter 13.
+                                                    <BR> Optional:
+                                                    <A HREF="http://www.sandiegocounty.gov/hhsa/programs/phs/documents/PHS_Cancer_Concerns_Cancer_Cluster_Myth_Gawande99-NewYorker.pdf">The Cancer Cluster Myth</A>, and
+                                                    <A HREF="http://psych.cornell.edu/sites/default/files/Gilo.Vallone.Tversky.pdf">The Hot Hand in Basketball: On the Misperception of Random Sequences</A>.
+                                                    <BR>
+                                                    <BR>
+                                                    <!--<A HREF="http://www.cs.duke.edu/courses/spring15/compsci270/hw2/">Homework 2</A> assigned, due February 24th (midnight).-->
+                                                </TD>
+                                                <TD>
+                                                    <A HREF="slides/270_7.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>February 15th</TD>
+                                                <TD>
+                                                    <B>Cancelled due to weather</B>
+                                                </TD>
+                                                <TD></TD>
+                                                <TD></TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>February 17th</TD>
+                                                <TD>Game Theory (guest lecturer Vincent Conitzer)</TD>
+                                                <TD></TD>
+                                                <TD>
+                                                    <A HREF="slides/conitzer_guest_lecture.pdf">PDF</A>
+                                                    <!--(continued)-->
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>February 22nd</TD>
+                                                <TD>Game Theory (guest lecturer Catherine Moon)</TD>
+                                                <TD></TD>
+                                                <TD>
+                                                    <A HREF="slides/game_theory.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <!--<TR>
+                                                                          <TD>February 24th</TD>
+                                                                          <!--<TD>Cutting-Edge AI Guest Lecture: <A HREF="http://www.cs.duke.edu/brd/">Bruce Donald</A></TD>
+                                                                          <TD>
+                                                                            Readings (<b>do this before class.</b>)<BR><BR>
+                                                                            <A HREF="http://www.cs.duke.edu/~brd/Teaching/Bio/asmb/current/asmb11.html">Algorithms in Structural Molecular Biology (MIT Press, 2011), Chapter 11</A>.
+                                                                            The
+                                                                            <A HREF="http://www.cs.duke.edu/donaldlab/Teaching/Seminar15/examples/Example-for-class/sample-course-notes-chapter-11.pdf">PDF</A> of this chapter is free to you.<BR><BR>
+                                                                            <A HREF="http://www.cs.duke.edu/donaldlab/Teaching/add/2011/Lectures/AstarLecture.ppt">Protein Design using A* Search.</A><BR><BR>
+                                                                            These links are restricted using .htaccess and are only available at Duke, or when using VPN and NetID.
+                                                                          </TD>
+                                                                          <TD>
+                                                                            ...
+                                                                          </TD> -->
+                                            <!-- <TD><B>Cancelled due to weather.</B></TD>
+                                                                          <TD></TD>
+                                                                          <TD></TD>
+                                                                        </TR> -->
+                                            <TR>
+                                                <TD>February 24th</TD>
+                                                <TD>Bayesian Networks</TD>
+                                                <TD>Chapters 13 and 14 (up to 14.4).</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_8.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>February 29th</TD>
+                                                <TD>
+                                                    <B>Class cancelled</B>
+                                                </TD>
+                                                <TD></TD>
+                                                <TD></TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>March 2nd</TD>
+                                                <TD>Bayesian Networks II</TD>
+                                                <TD></TD>
+                                                <TD>
+                                                    <A HREF="slides/270_9.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>March 7th</TD>
+                                                <TD>
+                                                    <B>Midterm review</B>
+                                                </TD>
+                                                <TD>
+                                                    <B>Midterm review</B>
+                                                </TD>
+                                                <TD></TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>March 9th</TD>
+                                                <TD>
+                                                    <B>Midterm</B>
+                                                </TD>
+                                                <TD>
+                                                    <B>Midterm</B>
+                                                </TD>
+                                                <TD>
+                                                    <!--<A HREF="slides/270_13.pdf">PDF</A>-->
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>March 14th</TD>
+                                                <TD>
+                                                    <B>Spring break</B>
+                                                </TD>
+                                                <TD></TD>
+                                                <TD>
+                                                    <!--<A HREF="slides/270_2.pdf">PDF</A>-->
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>March 16th</TD>
+                                                <TD>
+                                                    <B>Spring break</B>
+                                                </TD>
+                                                <TD></TD>
+                                                <TD>
+                                                    <!--<A HREF="slides/270_2.pdf">PDF</A>-->
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>March 21st</TD>
+                                                <TD>Hidden Markov Models</TD>
+                                                <TD>Chapter 15 (up to and including 15.3)</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_10.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>March 23rd</TD>
+                                                <TD>Planning</TD>
+                                                <TD>Chapter 10</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_11.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>March 28th</TD>
+                                                <TD>Probabilistic Planning</TD>
+                                                <TD>Chapter 17 (up to and including 17.3)</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_12.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>March 30th</TD>
+                                                <TD>Robot Motion Planning</TD>
+                                                <TD>Sections 25.4 - 25.6 (inclusive)</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_13.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>April 4th</TD>
+                                                <TD>Machine Learning Intro</TD>
+                                                <TD>Chapter 18</TD>
+                                                <TD>
+                                                    <A HREF="slides/270_14.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>April 6th</TD>
+                                                <TD>Machine Learning II</TD>
+                                                <TD>
+                                                    <!--A HREF="hw4/">Homework 4</A> assigned, due April 9th.-->
+                                                </TD>
+                                                <TD>
+                                                    <A HREF="slides/270_15.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>April 11th</TD>
+                                                <TD>Unsupervised learning.</TD>
+                                                <TD>Wikipedia entries on
+                                                    <A HREF="http://en.wikipedia.org/wiki/Principal_component_analysis">Principal Component
+                                                                              Analysis</A> and
+                                                    <A HREF="http://en.wikipedia.org/wiki/Isomap">ISOMAP</A>.
+                                                </TD>
+                                                <TD>
+                                                    <A HREF="slides/270_16.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>April 13th</TD>
+                                                <TD>Reinforcement Learning</TD>
+                                                <TD>Chapter 21.
+                                                </TD>
+                                                <TD>
+                                                    <A HREF="slides/270_17.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>April 18th</TD>
+                                                <TD>Philosophy of AI</TD>
+                                                <TD>Chapter 26
+                                                </TD>
+                                                <TD>
+                                                    <A HREF="slides/270_18.pdf">PDF</A>
+                                                </TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>April 20th</TD>
+                                                <TD>
+                                                    <B>Final Review</A></TD>
+                                                                            <TD>(last day of class)</TD>
+                                                                            <TD><!--<A HREF="slides/270_19.pdf">PDF</A>--></TD>
+                                                                          </TR>
+                                                                        </TABLE>
+                                                                        </CENTER>
+                                                                        <BR><BR>
+                                                                        <B>Final exam</B>: Monday May 2nd, 9am-noon.
+                                </P>
+                                <P>
+                                    <A HREF="#PageTop">[Back to top]</A>
+                                </P>
+                                <P>
+                                    <FONT FACE="sans-serif" Size=+1>
+                                        <B ID=Assignments>Assignments</B>
+                                    </FONT>
+                                </P>
+                                <HR HEIGHT=2>
+                                <P>
+                                    <CENTER>
+                                        <TABLE BORDER=0 CELLSPACING=5>
+                                            <TR>
+                                                <TH>Assignment</TH>
+                                                <TH>Available</TH>
+                                                <TH>Due</TH>
+                                            </TR>
+                                            <TR>
+                                                <TD>
+                                                    <A HREF="hw1">HW1</A>
+                                                </TD>
+                                                <TD>January 25th</TD>
+                                                <TD>February 10th (before midnight)</TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>
+                                                    <A HREF="hw2">HW2</A>
+                                                </TD>
+                                                <TD>February 15th</TD>
+                                                <TD>February 28th (before midnight)</TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>
+                                                    <A HREF="hw3.pdf">HW3</A>
+                                                </TD>
+                                                <TD>March 1st</TD>
+                                                <TD>March 11th (before midnight)</TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>
+                                                    <A HREF="hw4">HW4</A>
+                                                </TD>
+                                                <TD>March 23rd</TD>
+                                                <TD>April 5th (before midnight)</TD>
+                                            </TR>
+                                            <TR>
+                                                <TD>
+                                                    <A HREF="hw5">HW5</A>
+                                                </TD>
+                                                <TD>April 13th</TD>
+                                                <TD>April 24th (before midnight)</TD>
+                                            </TR>
+                                        </TABLE>
+                                    </CENTER>
+                                    <!--<CENTER>
+                                                                        <TABLE BORDER=0 CELLSPACING=5>
+                                                                          <TR><TH>Assignment</TH><TH>Available</TH><TH>Due</TH></TR>
+                                                                          <TR><TD><A HREF="hw1">HW1</A></TD><TD>January 23rd</TD><TD>February 6th</TD></TR>
+                                                                          <TR><TD><A HREF="hw2">HW2</A></TD><TD>February 11th</TD><TD>February 24th (midnight)</TD></TR>
+                                                                          <TR><TD><A HREF="hw3.pdf">HW3</A></TD><TD>March 1st</TD><TD>March 6th (midnight)</TD></TR>
+                                                                          <TR><TD><A HREF="hw4">HW4</A></TD><TD>March 27th</TD><TD>April 9th (midnight)</TD></TR>
+                                                                          <TR><TD><A HREF="hw5">HW5</A></TD><TD>April 10th</TD><TD>April 17th (midnight)</TD></TR>
+                                                                        </TABLE>
+                                    </CENTER>-->
+                                    <p>
+                                        <b>What to turn in:</b>
+                                        <ul>
+                                            <li> For written answers, please turn in a PDF. Do not turn in Microsoft Word or other formats.
+                                            </li>
+                                            <br>
+                                            <li> For programming questions, please include your code and any supporting files needed, along with some examples of how your code runs. If any special instructions are needed for compiling or executing your code, please include this in a readme.txt file. If it is not obvious how to make your code work, you may not receive full credit! </li>
+                                            <br>
+                                            <li>It is not necessary to embed an extra copy of your code within your written solutions. The files you submit are sufficient for this purpose. However, if you want to reference something in one your files, please do so in a clear manner by mentioning specific file names and functions.</li>
+                                            <br>
+                                            <li> Include your name in all files that you submit. Put it at the top of the first page of your written solutions and in the comments to each file you submit for your code.</li>
+                                            <br>
+                                            <li>Please avoid turning in scanned, handwritten assignments. This is permitted but discouraged because slows down the grading process and because it leads to very large files. If there is some emergency that necessitates submitting scanned material, pick a DPI and compression level that will lead to reasonable file sizes.</li>
+                                            <br>
+                                            <li>Include figures directly in your PDF rather than as separate attachments.</li>
+                                        </ul>
+                                    </p>
+                                    <p>
+                                        <b>How to turn it in:</b>
+                                        <br>
+                                        <ul>
+                                            <li>Unless otherwise stated, solutions are due <b>immediately before class</b> on the due date.</li>
+                                            <br>
+                                            <li>Homework assignments should be turned in electronically through
+                                                <a href=h ttps://sakai.duke.edu/>Sakai</a>.</li>
+                                            <br>
+                                            <li>Include your name as part of the file name of the file you upload to sakai. (It is confusing for the TAs if they need to wade through 60 files all named hw.pdf.) If your assignment involves multiple files, please put them in a single folder/directory and zip them. Do not use other compression methods such as zoo, rar, etc.
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            <b>Academic Honesty</b>
+                                            </br>
+                                            <ul>
+                                                <li> We take academic honesty very seriously. This <a href=h onesty.html>matrix</a> should leave no ambiguity about what is permitted and what is not permitted. You should check if you have any confusion about what is permitted.</li>
+                                            </ul>
+                                            <p>
+                                                <b>Lateness policy</b>
+                                                </br>
+                                                <ul>
+                                                    <li> You may request an extension <em>before</em> the due date of the assignment. Valid reasons for extensions include (but are not necessarily limited to) interviews, travel for research or academic purposes, and illness.</li>
+                                                    <br>
+                                                    <li> Late assignments (without a previously granted extension) will be penalized 10% per day. Assignments will not be accepted more than 5 days after the due date.</li>
+                                                    <br>
+                                                    <!--<li> Assignments turned in after the deadline should be emailed to the
+                                                                                professor and TAs.</li>-->
+                                                </ul>
+                                                <P>
+                                                    <A HREF="#PageTop">[Back to top]</A>
+                                                </P>
+                                                <P>
+                                                    <FONT FACE="sans-serif" Size=+1>
+                                                        <B ID=Grading>Grading</B>
+                                                    </FONT>
+                                                </P>
+                                                <HR HEIGHT=2>
+                                                <P>
+                                                    Graded components will be the homeworks (40%), the midterm (30%), and the final exam (30%).</P>
+                                                <P>
+                                                    I expect <b>all Duke students to
+                                                                                conduct themselves with the highest integrity, according to the
+                                                                                <A HREF="http://integrity.duke.edu/new.html">Duke Community Standard</A></b>. If you are unsure what this means, please refer to
+                                                    <A HREF="http://integrity.duke.edu/ugrad/">this link</A>. For a more concrete description,
+                                                    <A HREF="honesty.html">this matrix</A> outlines what forms of collaboration with others are and are not allowed during this course.
+                                                </P>
+                                                <P>
+                                                    <A HREF="#PageTop">[Back to top]</A>
+                                                </P>
+                                                <P>
+                                                    <FONT FACE="sans-serif" Size=+1>
+                                                        <B ID=Resources>Resources</B>
+                                                    </FONT>
+                                                </P>
+                                                <HR HEIGHT=2>
+                                                <P>
+                                                    <B><U>Required Text</B>
+                                                    </U>
+                                                    <BR>
+                                                    <BR>
+                                                    <A HREF="http://aima.cs.berkeley.edu/">Artificial Intelligence: A Modern Approach</A>, Stuart Russell and Peter Norvig. Be sure to check for
+                                                    <A HREF="http://aima.cs.berkeley.edu/errata.html">errata</A>! (scroll down for a list of current errata)
+                                                    <P>
+                                                        <A HREF="#PageTop">[Back to top]</A>
+                                                    </P>
+                                                    </TD>
+                                                    </TR>
+                                                    </TABLE>
+                                                    <!--</CENTER>-->
+</BODY>
+
+</HTML>
