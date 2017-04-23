@@ -1,5 +1,10 @@
+@font-face {
+  font-family: 'League Gothic', sans-serif;
+  src: url('../fonts/leaguegothic-regular-webfont.ttf');
+}
+
 body {
-    font-family: "Oswald", "Merriweather",Helvetica,Times,sans-serif;
+    font-family: "League Gothic", "Merriweather",Helvetica,Times,sans-serif;
     background: url('../img/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,7 +19,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'League Gothic', sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
     columns: #242445;
@@ -74,8 +79,8 @@ ul {
 
 .brand-name {
     margin: 0;
-    font-size: 4em;
-    font-family: "Oswald";
+    font-size: 10em;
+    font-family: "League Gothic";
     line-height: 1.5em;
 }
 
@@ -128,8 +133,8 @@ footer p {
         padding: 30px 0 10px;
         text-align: center;
         text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Oswald","Helvetica Neue",Helvetica,Arial,sans-serif; /* Right here!! */
-        font-size: 5em;
+        font-family: "League Gothic","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 7em;
         font-weight: 700;
         line-height: normal;
         color: #EAE1E1;
@@ -178,12 +183,13 @@ footer p {
 
     .nav>li>a {
         padding: 35px;
-        font-family: 'Oswald', sans-serif;
-
+        font-family: 'League Gothic', sans-serif;
+        
     }
 
     .navbar-nav>li>a {
         line-height: normal;
+
     }
 
     .navbar-nav {
@@ -192,6 +198,7 @@ footer p {
         margin: 0 auto;
         table-layout: fixed;
         font-size: 1.25em;
+
     }
 
 }
@@ -492,7 +499,7 @@ footer p {
 }
 
 .text p {
-  font-family: 'Oswald';
+  font-family: 'League Gothic';
   text-align: center;
   color: #EAE1E1;
   text-transform: uppercase;
