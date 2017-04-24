@@ -189,7 +189,7 @@ footer p {
 
     .navbar-nav>li>a {
         line-height: normal;
-
+        
     }
 
     .navbar-nav {
@@ -197,8 +197,7 @@ footer p {
         float: none;
         margin: 0 auto;
         table-layout: fixed;
-        font-size: 1.25em;
-
+        font-size: 120px;
     }
 
 }
@@ -431,7 +430,7 @@ footer p {
 
 @media screen and (min-width: 768px) {
   ul.nav.navbar-nav li a {
-  font-size: 13px;
+  font-size: 20px;
   padding-left: 7px;
   padding-right: 7px;
 }
@@ -439,7 +438,7 @@ footer p {
 
 @media screen and (min-width: 800px) {
   ul.nav.navbar-nav li a {
-  font-size: 13px;
+  font-size: 19px;
   padding-left: 9px;
   padding-right: 9px;
 }
@@ -447,7 +446,7 @@ footer p {
 
 @media screen and (min-width: 1100px) {
   ul.nav.navbar-nav li a {
-    font-size: 16px;
+    font-size: 24px;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -455,7 +454,7 @@ footer p {
 
 @media screen and (min-width: 1200px) {
   ul.nav.navbar-nav li a {
-    font-size: 16px;
+    font-size: 24px;
   padding-left: 30px;
   padding-right: 30px;
 }
