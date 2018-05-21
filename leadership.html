@@ -3,12 +3,15 @@
 <head>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>    <meta charset="utf-8">
+	<link href='https://fonts.googleapis.com/css?family=Merriweather:300' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
     <link href="css/freelancer.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" href="css/hover-min.css">
     <link rel="stylesheet" href="css/animate.css">
 
@@ -24,6 +27,7 @@
     <link href="css/business-casual.css" rel="stylesheet">
 
     
+    <link href="css/business-casual.css" rel="stylesheet"> 
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -35,6 +39,20 @@
 	rel="stylesheet" type="text/css">
 </head>
 <body>
+	
+<SCRIPT>
+function passWord() {
+var pass1 = prompt('Please Enter Your Password');
+if (pass1 == "BlueBow1819") {
+alert('PasswordCorrect');
+window.open('members.html');
+}
+alert('Access Denied, Password Incorrect');
+return " ";
+} 
+</SCRIPT>
+
+
 
  
     <div class="brand animated fadeInUp">DUKE BOW</div>
@@ -76,7 +94,10 @@
                         <a href="contact.html" class="hvr-underline-from-center">Contact</a>
                     </li>
                     <li>
-                        <a href="blog-home.html" class="hvr-underline-from-center" id="new">New! Spotlight Blog</a>
+                        <a href="blog-home.html" class="hvr-underline-from-center">Spotlight Blog</a>
+                    </li>
+					<li>
+                        <a href="#" class="hvr-underline-from-center" onClick="passWord()">Members Only</a>
                     </li>
                 </ul>
             </div>
@@ -87,142 +108,139 @@
 
 
     <div class="container">
+	<div class="box">
+		<div class="row">
+			<div class="col-lg-12">
+				<hr>
+				<h1 class="text-center">BOW Leadership</h1>
+				<hr>
+			</div>
+			<div class="col-lg-6 text-center">
+				<div class="thumbnail">
+					<!-- change -->
+					<img class="img-responsive img-border img-full" src="pix18/GroupPicture.jpg" alt="">
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<h2>BOW creates an environment where its members can thrive.</h2>
+				<p>In our community, our members are given tools to develop as leaders, businesswomen, and individuals. Each year, several of our members serve on BOW's Executive Board to plan workshops, invite guest speakers to campus, form corporate sponsorships, carry out logistics, and more. The Executive Board strives to create the ultimate experience for Duke women interested in business by creating programming across all industries and skill sets.
+                </p>
+			</div>
+		</div>
+		
+		<!-- Executive Leadership -->
+		<hr>
+		<h1 class="intro-text text-center">Executive Leadership</h1>
+		<hr>
+		
+		<div class="row"> 
+			<div class="col-md-2"></div>
+			<!-- Exec bio: President -->
+			<!-- change -->
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				
+				<div class="ih-item square effect3 bottom_to_top"><a href="#president" class="portfolio-link" data-toggle="modal">
+					<div class="img"><img src="pix18/Grace.jpg" alt="" height="100" width="150"></div> 
+					<div class="info">
+						<h3>Grace Peterson</h3>
+						<p>Click to read full bio</p>
+					</div></a>
+				</div>
 
-            <div class="box">
-            <div class="row">
-                <div class="col-lg-12">
-                    <hr>
-                    <h1 class="text-center">BOW Leadership</h1>
-                    <hr>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <div class="thumbnail">
-                        <img class="img-responsive img-border img-full" src="img/GroupPicture.jpg" alt="">
-                    </div>
-                    
-                </div>
-                <div class="col-lg-6">
-                    <h2>BOW creates an environment where its members can thrive.</h2>
-                    <p>In our community, our members are given tools to develop as leaders, businesswomen, and individuals. Each year, several of our members serve on BOW's Executive Board to plan workshops, invite guest speakers to campus, form corporate sponsorships, carry out logistics, and more. The Executive Board strives to create the ultimate experience for Duke women interested in business by creating programming across all industries and skill sets.
+                <div class="portfolio-caption">
+					<a href="#president" class="portfolio-link" data-toggle="modal"><h3>Grace Peterson</h3></a>
+					<p>
+						President <br>
+                        T '19, Economics, Creative Writing minor | <a href="#president" class="portfolio-link" data-toggle="modal">Bio</a>
+                    </p>
+				</div>
+			</div>
+            <!-- End exec bio -->
+
+            <!-- Exec bio: Executive VP -->
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="ih-item square effect3 bottom_to_top"><a href="#vp" class="portfolio-link" data-toggle="modal">
+					<div class="img"><img src="pix18/Jenny.jpg" alt="" height="100" width="150"></div>
+					<div class="info">
+						<h3>Jenny Zhang</h3>
+                        <p>Click to read full bio</p>
+					</div></a></div>
+				<div class="portfolio-caption">
+					<a href="#vp" class="portfolio-link" data-toggle="modal"><h3>Jenny Zhang</h3></a>
+                    <p>
+                    	Executive Vice President <br>
+                    	T '19, Economics and Psychology | <a href="#vp" class="portfolio-link" data-toggle="modal">Bio</a>
+                    </p>
+                    </div> 
+			</div>
+			<div class="col-md-2"></div>
+			<!-- End exec bio --> 
+		</div>
+		
+		<!--Divisional Vice Presidents -->
+		<div class="row">
+			<hr>
+			<h1 class="intro-text text-center">Division Vice Presidents</h1>
+			<hr>
+		</div>
+		
+		<div class="row">
+			<!-- Exec bio: VP PD-->
+			<!-- change -->
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="ih-item square effect3 bottom_to_top"><a href="#vppd" class="portfolio-link" data-toggle="modal">
+					<div class="img"><img src="pix18/Hayden.jpg" alt="" height="100" width="150"></div>
+					<div class="info">
+						<h3>Hayden Manseau</h3>
+						<p>Click to read full bio</p>
+					</div></a></div>
+				<div class="portfolio-caption">
+					<a href="#vppd" class="portfolio-link" data-toggle="modal"><h3>Hayden Manseau</h3></a>
+					<p>
+                    	VP Professional Development <br>
+                    	T '20, Public Policy, Psychology minor, Markets and Management Studies certificate | <a href="#vppd" class="portfolio-link" data-toggle="modal">Bio</a>
+                    </p>
+				</div>
+			</div>
+			<!-- End exec bio --> 
+			
+			<!-- Exec bio: VP Evevnts F/C -->
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="ih-item square effect3 bottom_to_top">
+					<a href="#vpefc" class="portfolio-link" data-toggle="modal">
+					<div class="img"><img src="pix18/Angela.jpg" alt="" height="100" width="150"></div>
+					<div class="info">
+						<h3>Angela Zhou</h3>
+                        <p>Click to read full bio</p>
+					</div></a>
+				</div>
+				<div class="portfolio-caption">
+					<a href="#vpefc" class="portfolio-link" data-toggle="modal"><h3>Angela Zhou</h3></a>
+					<p>
+						VP Events: Finance and Consulting <br>
+                        T '20,  Enviornmental Science, Finance minor |  <a href="#vpefc" class="portfolio-link" data-toggle="modal">Bio</a>
                     </p>
                 </div>
-                </div>
-                
-                <!-- Executive Leadership -->
-                <hr>
-                <h1 class="intro-text text-center">Executive Leadership</h1>
-                <hr>
-                
-                <div class="row"> 
-		
-		<div class="col-md-2"></div>
-                <!-- Exec bio -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#natalie" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/natalie.jpg" alt="" height="100" width="150"></div> 
-                        <div class="info">
-                          <h3>Natalie Shammas</h3>
-                          <p>Click to read full bio</p>
-                    </div></a></div>
-
-                    <div class="portfolio-caption">
-                        <a href="#natalie" class="portfolio-link" data-toggle="modal"><h3>Natalie Shammas</h3></a>
-                        <p>
-                        President <br>
-                        T '18, Psychology, Sociology minor, Markets and Management certificate | <a href="#natalie" class="portfolio-link" data-toggle="modal">Bio</a>
-                        </p>
-                    </div>
-                    
-                </div>
-                <!-- End exec bio -->
-
-                <!-- Exec bio -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                   
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#marielle-rodgers" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/marielle.jpg" alt="" height="100" width="150"></div>
-                        <div class="info">
-                          <h3>Marielle Rodgers</h3>
-                          <p>Click to read full bio</p>
-                    </div></a></div>
-
-                    <div class="portfolio-caption">
-                        <a href="#marielle-rodgers" class="portfolio-link" data-toggle="modal"><h3>Marielle Rodgers</h3></a>
-                        <p>
-                        Executive Vice President <br>
-                        T '18, Economics, certificate Decision Sciences | <a href="#marielle-rodgers" class="portfolio-link" data-toggle="modal">Bio</a>
-                        </p>
-                    </div>
-                   
-                </div>
-                <div class="col-md-2"></div>
-                <!-- End exec bio --> 
-                </div>
-                <!-Divisional Vice Presidents -->
-                <div class="row">
-                    <hr>
-                        <h1 class="intro-text text-center">Division Vice Presidents</h1>
-                    <hr>
-		</div>
-		<div class="row">
-                <!-- Exec bio -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                  
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#jenny" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/jenny.jpg" alt="" height="100" width="150"></div>
-                        <div class="info">
-                          <h3>Jenny Zhang</h3>
-                          <p>Click to read full bio</p>
-                    </div></a></div>
-
-                    <div class="portfolio-caption">
-                        <a href="#jenny" class="portfolio-link" data-toggle="modal"><h3>Jenny Zhang</h3></a>
-                        <p>
-                        VP Professional Development <br>
-                        T '19, Economics, Psychology | <a href="#jenny" class="portfolio-link" data-toggle="modal">Bio</a>
-                        </p>
-                    
-                    </div>
-                </div>
+			</div>
                 <!-- End exec bio --> 
 
-                <!-- Exec bio -->
+                <!-- Exec bio: VP DI -->
+				<!-- change -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                   
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/grace.jpg" alt="" height="100" width="150"></div>
+                    
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#vpedi" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Anya.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Grace Peterson</h3>
+                          <h3>Anya Bali</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal"><h3>Grace Peterson</h3></a>
-                        <p>
-                        VP Events: Finance and Consulting <br>
-                        T '19,  Economics,  Creative Writing minor     |     <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">Bio</a>
-                        </p>
-                    </div>
-                    
-                </div>
-                <!-- End exec bio --> 
-
-                <!-- Exec bio -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/alli.jpg" alt="" height="100" width="150"></div>
-                        <div class="info">
-                          <h3>Alli Leiva</h3>
-                          <p>Click to read full bio</p>
-                    </div></a></div>
-
-                    <div class="portfolio-caption">
-                        <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal"><h3>Alli Leiva</h3></a>
+                        <a href="#vpedi" class="portfolio-link" data-toggle="modal"><h3>Anya Bali</h3></a>
                         <p>
                         VP Events: Diversified Industries <br>
-                        T '20,  Economics   and   History        |       <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '19,  Psychology, Computer Science minor, Innovation & Entrepreneurship certificate|       
+						<a href="#vpedi" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     </div>
                     
@@ -230,42 +248,41 @@
                 <!-- End exec bio -->
 	</div>
 		<div class="row">
-                <!-- Exec bio -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/mary.jpg" alt="" height="100" width="150"></div>
-                        <div class="info">
-                          <h3>Mary Ziemba</h3>
-                          <p>Click to read full bio</p>
-                    </div></a></div>
+			<!-- Exec bio: VP Comms -->
+			<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+				<div class="ih-item square effect3 bottom_to_top"><a href="#vpcomm" class="portfolio-link" data-toggle="modal">
+					<div class="img"><img src="pix18/Audrey.jpg" alt="" height="100" width="150"></div>
+					<div class="info">
+						<h3>Audrey Kornkven</h3>
+						<p>Click to read full bio</p>
+					</div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal"><h3>Mary Ziemba</h3></a>
+                        <a href="#vpcomm" class="portfolio-link" data-toggle="modal"><h3>Audrey Kornkven</h3></a>
                         <p>
-                        VP Communications <br>
-                        T '18, Computer Science, Innovation and Entrepreneurship certificate | <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">Bio</a>
-                        </p>
-                    </div>
-                   
-                </div>
-                <!-- End exec bio -->  
+                        	VP Communications <br>
+                        	T '20, Economics (Finance concentration), Politics, Philosophy & Economoics certificate | <a href="#vpcomm" class="portfolio-link" data-toggle="modal">Bio</a>
+						</p>
+					</div>
+			</div>
+            <!-- End exec bio -->  
 
                 <!-- Exec bio -->
+				<!-- change -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#ariel" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/ariel.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#vpmem" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Ellen.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Ariel Burde</h3>
+                          <h3>Ellen Scully</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#ariel" class="portfolio-link" data-toggle="modal"><h3>Ariel Burde</h3></a>
+                        <a href="#vpmem" class="portfolio-link" data-toggle="modal"><h3>Ellen Scully</h3></a>
                         <p>
                         VP Membership <br>
-                        T '19, History, Neuroscience minor, Innovation and Entrepreneurship certificate| <a href="#ariel" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '21, Psychology, Spanish minor| <a href="#vpmem" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     </div>
                     
@@ -275,18 +292,18 @@
                 <!-- Exec bio -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#michelle-chen" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/carly.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#vpf" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Carolyn.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Carly Bandt</h3>
+                          <h3>Carolyn Chen</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#michelle-chen" class="portfolio-link" data-toggle="modal"><h3>Carly Bandt</h3></a>
+                        <a href="#vpf" class="portfolio-link" data-toggle="modal"><h3>Carolyn Chen</h3></a>
                         <p>
                         VP Finance<br>
-                        T '18, Public Policy, Economics minor, Markets and Management certificate | <a href="#michelle-chen" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '19, Statistics, History and Finance minor | <a href="#vpf" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     </div>
                    
@@ -295,19 +312,20 @@
 	</div>
 		<div class="row">
                 <!-- Exec bio -->
+				<!-- change -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#eileen-cheng" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/michelle.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#vpment" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Mika.jpeg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Michelle Chen</h3>
+                          <h3>Mika Deshmukh</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#eileen-cheng" class="portfolio-link" data-toggle="modal"><h3>Michelle Chen</h3></a>
+                        <a href="#vpment" class="portfolio-link" data-toggle="modal"><h3>Mika Deshmukh</h3></a>
                         <p>
                         VP Mentorship<br>
-                        T '18, Computer Science, Economics minor | <a href="#eileen-cheng" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '19, Visual and Media Studies, French minor, Markets and Management Studies certificate | <a href="#vpment" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     </div>
                     
@@ -315,20 +333,21 @@
                 <!-- End exec bio --> 
 	
                 <!-- Exec bio -->
+				<!-- change -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#whitney-hazard" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/helen.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#vpentre" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Sonia.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Helen Lu</h3>
+                          <h3>Sonia Hernandez</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#whitney-hazard" class="portfolio-link" data-toggle="modal"><h3>Helen Lu</h3></a>
+                        <a href="#vpentre" class="portfolio-link" data-toggle="modal"><h3>Sonia Hernandez</h3></a>
                         <p>
                         VP Entrepreneurship<br>
-                        T '18, Economics, Chemistry minor, Innovation and Entrepreneurship certificate | <a href="#whitney-hazard" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '19, Economics, Innovation and Entrepreneurship certificate | <a href="#vpentre" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     
                     </div>
@@ -338,46 +357,69 @@
                <!-- Exec bio -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#ekim" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/ekim-buyuk.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#vpalum" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Sabrina.jpeg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Ekim Buyuk</h3>
+                          <h3>Sabrina Hao</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#ekim" class="portfolio-link" data-toggle="modal"><h3>Ekim Buyuk</h3></a>
+                        <a href="#vpalum" class="portfolio-link" data-toggle="modal"><h3>Sabrina Hao</h3></a>
                         <p>
                         VP Alumni Relations <br>
-                        T '19, Statistics and Economics | <a href="#ekim" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '20, Economics (Finance concentration), Creative Writing minor | <a href="#vpalum" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     </div>
                    
                 </div>
                 <!-- End exec bio --> 
 	</div>
+		<div class="col-md-2"></div>
 		<div class="row">
 		<!-- Exec bio -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#whitney" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/whitney-hazard.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#vpegbm" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Ariel.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Whitney Hazard</h3>
+                          <h3>Ariel Burde</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#whitney" class="portfolio-link" data-toggle="modal"><h3>Whitney Hazard</h3></a>
+                        <a href="#vpegbm" class="portfolio-link" data-toggle="modal"><h3>Ariel Burde</h3></a>
                         <p>
                         VP Events: General Body Meetings <br>
-                        T '18, Public Policy, Innovation and Entrepreneurship certificate, Information Science certificate | <a href="whitney" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '19, History of Economic and Business Cultures, Innovation and Entrepreneurship certificate, Information Science certificate | <a href="#vpegbm" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     </div>
                    
                 </div>
+			<!-- End exec bio -->
+			<!-- Exec bio -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#vpli" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Ekim.jpg" alt="" height="100" width="150"></div>
+                        <div class="info">
+                          <h3>Ekim Buyuk</h3>
+                          <p>Click to read full bio</p>
+                    </div></a></div>
+
+                    <div class="portfolio-caption">
+                        <a href="#vpli" class="portfolio-link" data-toggle="modal"><h3>Ekim Buyuk</h3></a>
+                        <p>
+                        VP Lean-In Initiatives <br>
+                        T '19, Economics (Finance concentration) and Statistics | <a href="#vpli" class="portfolio-link" data-toggle="modal">Bio</a>
+                        </p>
+                    </div>
+                   
+                </div>
+			<!-- End exec bio -->
+				</div>
                 <!-- Divisional Chairs -->
-	</div>
+
 		    <div class="col-xs-12">
                 <hr>
                 <h1 class="intro-text text-center">Divisional Chairs</h1>
@@ -385,21 +427,22 @@
 			    </div>
 
         <!-- Exec bio -->
+		<!-- change -->
 		<div class="row">  
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#anya" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/anya.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#ccomm" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Lin.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Anya Bali</h3>
+                          <h3>Lin Zuo</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#anya" class="portfolio-link" data-toggle="modal"><h3>Anya Bali</h3></a>
+                        <a href="#ccomm" class="portfolio-link" data-toggle="modal"><h3>Lin Zuo</h3></a>
                         <p>
                         Communications Chair <br>
-                        T '19, Psychology, Computer Science minor | <a href="#anya" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '20, Statistical Science and Computer Science, Economics minor | <a href="#ccomm" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                    
                     </div>
@@ -408,18 +451,18 @@
         <!-- Exec bio -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#mary-ziemba" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/archana.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#ctech" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Sara.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Archana Ahlawat</h3>
+                          <h3>Sara Behn</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#mary-ziemba" class="portfolio-link" data-toggle="modal"><h3>Archana Ahlawat</h3></a>
+                        <a href="#ctech" class="portfolio-link" data-toggle="modal"><h3>Sara Behn</h3></a>
                         <p>
                         Technology Chair <br>
-                        T '19, Computer Science and Political Science | <a href="#mary-ziemba" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '21, Computer Science, English minor, Innovation and Entrepreneurship certificate | <a href="#ctech" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     
                     </div>
@@ -430,18 +473,18 @@
         <!-- Exec bio -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/shruti.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#calum" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Cole.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Shruti Rao</h3>
+                          <h3>Cole Zaharris</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal"><h3>Shruti Rao</h3></a>
+                        <a href="calum" class="portfolio-link" data-toggle="modal"><h3>Cole Zaharris</h3></a>
                         <p>
                         Alumni Relations Chair <br>
-                        T '18, Global Value Chains, Design and Technology, Decision Sciences certificate | <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '21, Undeclared | <a href="#calum" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     </div>
                    
@@ -450,20 +493,21 @@
 	</div>
                 <div class="row">
         <!-- Exec bio -->
+		<!-- change -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#shruti-rao" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/sonia.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#csbc" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Ha.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Sonia Hernandez</h3>
+                          <h3>Ha Nguyen</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#shruti-rao" class="portfolio-link" data-toggle="modal"><h3>Sonia Hernandez</h3></a>
+                        <a href="#csbc" class="portfolio-link" data-toggle="modal"><h3>Ha Nguyen</h3></a>
                         <p>
                         Spring Business Conference Chair <br>
-                        T '19, Economics, Innovation and Entrepreneurship certificate | <a href="#shruti-rao" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '21, International Comparative Studies and Computer Science | <a href="#csbc" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     </div>
                     
@@ -471,21 +515,22 @@
         <!-- End exec bio -->
 
                     <!-- Exec bio -->
+					<!-- change -->
             
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                     
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#hayden" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/hayden.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#cmem" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Erica.jpeg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Hayden Manseau</h3>
+                          <h3>Erica Wang</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#hayden" class="portfolio-link" data-toggle="modal"><h3>Hayden Manseau</h3></a>
+                        <a href="#cmem" class="portfolio-link" data-toggle="modal"><h3>Erica Wang</h3></a>
                         <p>
                         Membership Chair <br>
-                        T '20, Public Policy, Psychology minor, Markets and Management certificate | <a href="#hayden" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '21, Economics and Chinese | <a href="#cmem" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     
                     </div>
@@ -495,67 +540,72 @@
      <!-- Exec bio -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#angela" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/angela.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#clog" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Kimberly.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Angela Zhou</h3>
+                          <h3>Kimberly DelSignore</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#angela" class="portfolio-link" data-toggle="modal"><h3>Angela Zhou</h3></a>
+                        <a href="#clog" class="portfolio-link" data-toggle="modal"><h3>Kimberly DelSignore</h3></a>
                         <p>
                         Logistics Chair <br>
-                        T '20, Environmental Science, Finance minor, Political Science minor | <a href="#angela" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '21, Economics, French minor, Markets and Management Studies Certificate | <a href="#clog" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     </div>
                    
                 </div>
 	</div>
-                <div class="col-md-2"></div>
                 <!-- End exec bio --> 
 		      
-		              <!-- End exec bio -->
-        	<div class="row">
-		              <!-- Exec bio -->
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                   
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#gillian" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/gillian.jpg" alt="" height="100" width="150"></div>
-                        <div class="info">
-                          <h3>Gillian Samios</h3>
-                          <p>Click to read full bio</p>
-                    </div></a></div>
-
-                    <div class="portfolio-caption">
-                        <a href="#gillian" class="portfolio-link" data-toggle="modal"><h3>Gillian Samios</h3></a>
-                        <p>
-                        Lean-In Chair <br>
-                        T '20, Public Policy, French minor, Markets and Management certificate | <a href="#gillian" class="portfolio-link" data-toggle="modal">Bio</a>
-                        </p>
-                    
-                    </div>
-                </div>
-        <!-- End exec bio -->
+		          <div class="col-md-2"></div>
+        	
+		<div class="row">
         <!-- Exec bio -->
+				<!-- change -->
                 <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                    
-                    <div class="ih-item square effect3 bottom_to_top"><a href="#mika" class="portfolio-link" data-toggle="modal">
-                        <div class="img"><img src="headshots/mika.jpg" alt="" height="100" width="150"></div>
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#cment" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Mary.jpg" alt="" height="100" width="150"></div>
                         <div class="info">
-                          <h3>Mika Deshmukh</h3>
+                          <h3>Mary Wang</h3>
                           <p>Click to read full bio</p>
                     </div></a></div>
 
                     <div class="portfolio-caption">
-                        <a href="#mika" class="portfolio-link" data-toggle="modal"><h3>Mika Deshmukh</h3></a>
+                        <a href="#cment" class="portfolio-link" data-toggle="modal"><h3>Mary Wang</h3></a>
                         <p>
                         Mentorship Chair <br>
-                        T '19, Visual Media Studies and Romance Studies | <a href="#mika" class="portfolio-link" data-toggle="modal">Bio</a>
+                        T '21, Economics, Mathematics minor | <a href="#cment" class="portfolio-link" data-toggle="modal">Bio</a>
                         </p>
                     
                     </div>
                 </div>
+		<!-- End exec bio -->
+		<!-- Exec bio -->
+				<!-- change -->
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                   
+                    <div class="ih-item square effect3 bottom_to_top"><a href="#cdi" class="portfolio-link" data-toggle="modal">
+                        <div class="img"><img src="pix18/Elle.jpg" alt="" height="100" width="150"></div>
+                        <div class="info">
+                          <h3>Elle Chen</h3>
+                          <p>Click to read full bio</p>
+                    </div></a></div>
+
+                    <div class="portfolio-caption">
+                        <a href="#cdi" class="portfolio-link" data-toggle="modal"><h3>Elle Chen</h3></a>
+                        <p>
+                        Diversity & Inclusion Chair <br>
+                        T '19, Political Science, Economics minor, Philosophy, Politics, and Economics Certificate | <a href="#cdi" class="portfolio-link" data-toggle="modal">Bio</a>
+                        </p>
+                    
+                    </div>
+                </div>
+		<!-- End exec bio -->
+			
+		
 	</div>
 		    </div>
 		    
@@ -570,14 +620,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; 2017 Duke Association for Business Oriented Women.</p>
+                    <p>Copyright &copy; 2018 Duke Association for Business Oriented Women.</p>
                 </div>
             </div>
         </div>
     </footer>
 
     <!-- Portfolio Modals -->
-    <div class="portfolio-modal modal fade" id="natalie" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="president" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -589,15 +639,14 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Natalie Shammas</h2>
+                            <h2>Grace Peterson</h2>
                             <h3>President</h3><br>
                             <p>
-
-                                Natalie Shammas is a senior from Greenville, North Carolina. She is pursuing a B.A. in Psychology with a minor in Sociology and a Marketing & Management Studies Certificate. Natalie joined BOW her freshman year, and she has previously served on BOW’s executive board as VP Events for Diversified Industries and Logistics Chair. During her time in BOW, Natalie has strived to increase the diversity of industries represented on BOW’s calendar. This summer, she will be interning in Google’s marketing department. She has spent her previous summers interning with the WNBA’s Atlanta Dream and studying arts entrepreneurship through Duke In Chicago. In addition to BOW, Natalie works as a student manager with the Duke Women’s Basketball team and is an intern at the Fuqua/Coach K Center On Leadership and Ethics. She is also a Resident Assistant in Kilgo Dorm. In her free time, Natalie loves to watch NBA basketball, take spin classes, and spend time with her family and friends.
+                            Grace is a senior from the San Francisco Bay Area majoring in Economics with a minor in Creative Writing. She is excited to be BOW’s President after previously serving as the VP of Events for finance and consulting in her junior year and the Membership Chair in her sophomore year. This summer, Grace interned at The Boston Consulting Group (BCG) as a Summer Associate. In previous summers, Grace was a Sophomore Summer Analyst at Bank of America Merrill Lynch in the investment banking division and a Marketing Intern at Andersen Tax. In her free time, Grace enjoys traveling, singing, cooking, playing board games, and spending time with family and friends.
                             </p>
                             <ul class="list-inline item-details">
                                 <li>
-                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/natalieshammas">LinkedIn</a>
+                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/grace-peterson-535807b9/">LinkedIn</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -608,64 +657,8 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Shruti Rao</h2>
-                            <h3>Alumni Relations Chair</h3><br>
-                            <p>Shruti Rao is an Alice M. Baldwin Scholar pursuing a Program II major titled, "Global Value Chains, Design and Technology" and a Certificate in Decision Sciences. She has been a member of BOW since her freshman year at Duke and has previously served as the VP of events and SBC Chair on BOW's Executive Board. Shruti is passionate about BOW's mission to empower and connect Duke women who are passionate about business and is grateful to BOW for the guidance and support she has received over the years. She has spent three years as a columnist for the Duke Chronicle and two years as a member of a Bass Connections research team. Previously, she has interned at the U.S. Office of Innovation and Entrepreneurship at the Department of Commerce in Washington DC and JP Morgan’s Investment Banking Division in NYC. In her free time Shruti enjoys cycling, boxing, reading and spending time with her family. </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/shruti-rao-duke">LinkedIn</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Mary Ziemba</h2>
-                            <h3>VP Communications</h3><br>
-                            <p>Mary Ziemba is a senior from New Jersey. She is studying Computer Science and is working toward a certificate in Innovation and Entrepreneurship. Mary joined BOW her freshman year pursuant to her interest in the technology industry. In past summers, she studied disruptive innovation in the Duke in Silicon Valley program and did data analytics and visualization work at the US Agency for International Development in Washington, DC. Most recently, she has pursued her interest in artificial intelligence as a software engineering intern at Apple, where she worked on projects related to AI. Additionally, she plans on researching applications of artificial intelligence in the options trading market this school year. She is excited to serve as BOW's Communications VP this year.</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/maryziemba">LinkedIn</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div></div>
-
-    <div class="portfolio-modal modal fade" id="jenny" tabindex="-1" role="dialog" aria-hidden="true">
+	
+<div class="portfolio-modal modal fade" id="vp" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -678,370 +671,15 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Jenny Zhang</h2>
-                            <h3>VP Professional Development</h3><br>
-                            <p>Jenny Zhang is a junior from Chicago, Illinois pursuing a double major in Economics and Psychology. She previously served as Vice President of Membership for BOW and is excited to be returning as Vice President of Professional Development. In addition to her leadership roles in BOW, Jenny has been a tutor at Durham Public Schools and a host for Tea with Strangers. She spent the previous summer working at CARPLS, a legal aid agency in Chicago, and will spend her time this summer interning at M3 Capital Partners, a private equity firm founded by a Fuqua graduate. In her free time, Jenny enjoys spending time with family, reading, baking, and jogging.
-</p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/jenny-y-zhang">LinkedIn</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="eileen-cheng" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Michelle Chen</h2>
-                            <h3>VP Mentorship</h3><br>
-                            <p>
-                            
-Michelle Chen is a senior from Overland Park, KS majoring in Computer Science with a minor in Economics. Michelle has previously served on BOW's executive board as the VP of Finance and as the Technology Chair. This past summer, Michelle interned at J.P. Morgan in their Investment Banking Division; in previous summers she interned at Morgan Stanley in the Technology & Data Division and the Wealth Management Division. In addition to being the VP of Mentorship for BOW, Michelle is heavily involved in HackDuke--the largest collegiate hackathon in the world addressing social good--serving as the Director in the 2016-2017 academic year. She is also a part of the Duke Business Society, a computer science UTA, and an active member of the Delta Gamma Fraternity. In her free time she enjoys traveling, TED Talks, and spending time with friends.
-
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/michelle-chen-71607596">LinkedIn</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div></div></div></div></div></div>
-
-                        
-<div class="portfolio-modal modal fade" id="ariel" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Ariel Burde</h2>
-                            <h3>VP Membership</h3><br>
-                            <p>
-                            Ariel Burde is a junior from Lower Merion, Pennsylvania, pursuing a History Major with a Concentration in Economic and Business Cultures, a Neuroscience minor, and the Innovation and Entrepreneurship Certificate. After her freshman year, Ariel explored entrepreneurship interning with the social media startup, Ussie, and continues to work part time for the company. She also works part time for Qnary, writing LinkedIn and Twitter content for executives. Last summer, Ariel interned at Soros Fund Management. Ariel applies her academic and business experience as an Ambassador for the Innovation and Entrepreneurship Program at Duke. In addition to her business experiences, Ariel is a pre-professional, classical ballet dancer who trained at the Bolshoi Ballet Academy in Moscow, Russia and in New York City and Philadelphia. At Duke, Ariel continues to dance on the Dancing Devils – Duke’s Dance Team – and with Duke Ballet Company. 
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                	<a href="https://www.linkedin.com/in/arielburde" target="_blank"><strong>LinkedIn</strong></a>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	
-    <div class="portfolio-modal modal fade" id="whitney" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Whitney Hazard</h2>
-                            <h3>VP Events: General Body Meetings</h3><br>
-                            <p>
-                            
-				Whitney Hazard is a senior studying Public Policy, Information Science, and Innovation & Entrepreneurship. Whitney is the Vice President of General Body Meetings for Business Oriented Women, and she previously served as the Vice President of Entrepreneurship. In addition to BOW, on campus Whitney is the Chair of the First Year Advisory Program that directs orientation. Also, she is a member of Delta Sigma Pi Professional Fraternity and Gamma Phi Beta Sorority.  Professionally, Whitney is interested in working at tech companies in non-technical roles. She spent this past summer as a Product Marketing Manager Intern at Microsoft in their Cloud and Enterprise division. Prior to that, she has worked at Groupon, InsightSquared, and Hello Alfred. Her goal is to use technology to solve social problems facing the world. In her free time, Whitney can be found competing in triathlons and spending time with her family and friends.
-
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/whitneyhazard">LinkedIn</a>
-                                    </strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div></div></div></div></div></div>
-
-    <div class="portfolio-modal modal fade" id="michelle-chen" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Carly Bandt</h2>
-                            <h3>VP Finance</h3><br>
-                            <p>
-                            Carly Bandt is a senior from Minnesota majoring in Public Policy with a minor in Economics and a certificate in Markets and Management Studies. She is fascinated by applications of behavioral applications to health policy and business. Last summer, she interned at Wells Fargo Securities in the Public Finance and TMT Investment Banking groups. This summer, she will be interning in the Real Estate group at Barclays Investment Bank. The best part of her Duke experience thus far was studying international business while abroad in Copenhagen, Denmark! In her spare time, she enjoys running, backpacking, and exploring new places.
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a href="https://www.linkedin.com/in/carlybandt" target="_blank">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Grace Peterson</h2>
-                            <h3>VP Events: Finance and Consulting</h3><br>
-                            <p>
-                            Grace is a junior from the San Francisco Bay Area majoring in Economics with a minor in Creative Writing. She is excited to be BOW’s VP of Events for finance and consulting after previously serving as the executive board’s Membership Chair. This past summer, Grace interned at Bank of America Merrill Lynch as a Sophomore Summer Analyst in the investment banking division. Previously, Grace enjoyed two summer internships at Andersen Tax in the firm’s marketing department. In addition to her role in BOW, Grace serves as the Co-Founder and CMO of a start-up at Duke. In her free time, Grace enjoys traveling, singing, cooking, playing board games, and spending time with family and friends. 
-
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a href="https://www.linkedin.com/in/grace-peterson-535807b9" target="_blank">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Alli Leiva</h2>
-                            <h3>VP Events: Diversified Industries</h3><br>
-                            <p>
-                            Alli Leiva is a sophomore from Montvale, NJ. She is pursuing a double major in Economics and History. As VP Events for Diversified Industries, she hopes to increase the range of topics discussed and explored within BOW to engage a larger audience of members. In addition to BOW, Alli is an intern at the Fuqua/Coach K Center on Leadership and Ethics and an active member of the Delta Gamma fraternity. Alli is looking to pursue a career in sports, and this past summer was a RTA for the Wharton Sports Business Academy. In her free time, she enjoys kayaking, watching sports, and spending time with friends and family.  
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="whitney-hazard" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Helen Lu</h2>
-                            <h3>VP Entrepreneurship</h3><br>
-                            <p>
-                            Helen Lu is a senior from Sugar Land, TX majoring in Economics with a minor in Chemistry and a certificate in Innovation and Entrepreneurship. In addition to her involvement in BOW, she has also served as the Director of Outreach and the Director of Finance for The Cube. Previously, she has worked with a Durham startup in the environmental space on its customer acquisition strategy, and she is currently working at a digital health startup as a business development analyst. This summer, Helen interned at Credit Suisse’s Investment Banking Division in the Mergers & Acquisitions group, and last summer she served as a community consultant for Social Entrepreneur Corps in Guatemala. In her free time, she enjoys hanging out with friends and family, dancing with Duke Chinese Dance, and binge-listening to Criminal podcasts.     
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a href="https://www.linkedin.com/in/helenlu18" target="_blank">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="grace-li" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Marielle Rodgers</h2>
                             <h3>Executive Vice President</h3><br>
                             <p>
-                            Marielle Rodgers is a senior from Columbus, Ohio majoring in Economics with a certificate in Decision Sciences. She has served as Duke Marketing Club's VP of Operations and Junior Exec Board Head, the Career Ambassador Team's Employer Relations Chair and BOW's Spring Business Conference chair. This summer she returned as a marketing intern for Microsoft's Digital Stores after working in the Cloud + Enterprise division last summer. Previously, she worked as a grassroots consultant in Nicaragua for the Social Entrepreneur Corps through DukeEngage, and spent last fall pursuing her love of travel by studying at University College London. Excited to find ways to drive change by creating stories and insights using data, in her free time she enjoys puzzles, exploring new foods/places with friends, and discovering new music playlists.   
+                            Jenny Zhang is a senior from Chicago, Illinois pursuing a double major in Economics and Psychology. She joined BOW her freshman year and has previously served as Vice President of Membership and Vice President of Professional Development on BOW’s Executive Board. This past summer, Jenny interned at J.P. Morgan in the Investment Banking Division in New York. She has spent previous summers working at CARPLS, a legal aid agency in Chicago, and M3 Capital Partners, a search fund founded by a Fuqua graduate. In addition to her leadership roles in BOW, Jenny has been a tutor at Durham Public Schools. In her free time, she enjoys spending time with family, exploring new foods, and jogging.   
                             </p>
                             <ul class="list-inline item-details">
                                 <li>
-                                <strong><a href="https://www.linkedin.com/in/mariellerodgers" target="_blank">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-        <div class="portfolio-modal modal fade" id="mary-ziemba" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Archana Ahlawat</h2>
-                            <h3>Technology Chair</h3><br>
-                            <p>
-                            Archana Ahlawat is a junior from central New Jersey pursuing a double major in Computer Science and Political Science, with a concentration in Political Economy.  She joined BOW her freshman year and is excited to strengthen BOW’s community of women in tech.  This past summer, she interned as a Data Analyst for IBM in its Global Technology Services division.  Previously, she spent a summer in Cape Town, South Africa, working for the South African Labor Research Institute.  Along with BOW, Archana serves as the Communications Chair for Duke Conversations.  She is also a Computer Science teaching assistant and a facilitator for Common Ground.  Archana is passionate about leveraging the power of technology and policy to promote the social, political, and economic good.  She is interested in issues of globalization and trade.  In her free time, Archana can be found debating, drinking lattes, or catching up with friends and family.
-
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a href="https://www.linkedin.com/in/archana-ahlawat/" target="_blank">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-        <div class="portfolio-modal modal fade" id="shruti-rao" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2> Sonia Hernandez </h2>
-                            <h3>Spring Business Conference Chair</h3><br>
-                            <p>
-                            Sonia Hernandez is a junior pursuing a major in Economics with a certificate in Innovation and Entrepreneurship. Her certificate focuses on financing innovation in rural areas, cities, and corporations. She is president and founder of Business Brigades at Duke, a microfinance and microenterprise consulting service organization that works in developing countries. Sonia has also worked as an entrepreneurship intern at the American Underground, a startup accelerator in the heart of Durham, which selects emerging local businesses for its Startup Stampede program. She is currently working at Lockheed Martin where she is a financial analyst for engineering and technology operations.    
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a href="https://www.linkedin.com/in/sonia-hernandez-753946129" target="_blank">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="angela" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Angela Zhou</h2>
-                            <h3>Logistics Chair</h3><br>
-                            <p>
-                            Angela Zhou is a sophomore from Seattle, Washington majoring in Environmental Science with minors in Finance and Political Science. Angela attended high school in an international school in Beijing, so she is particularly passionate about foreign policy, sustainability, and the intersection between the two disciplines. This summer, Angela is interning at a Jordanian business association EDAMA as part of the DukeEngage program, as well as a private equity firm in New York City. Outside of BOW, Angela serves on the executive board of Smart Woman Securities, which promotes women in business through financial seminars, and is the fundraising chair for alpha Kappa Delta Phi Sorority. She also takes part in the Duke Program in American Grand Strategy and Alexander Hamilton Society, both of which focuses on debating foreign affairs. In her free time, Angela enjoys traveling internationally, finding good food everywhere she goes, hiking, and avocados.
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a target="_blank" href="https://www.linkedin.com/in/angelazhou98">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="portfolio-modal modal fade" id="mika" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Mika Deshmukh</h2>
-                            <h3>Mentorship Chair</h3><br>
-                            <p>
-                            Mika is a junior double majoring in Visual and Media Studies, and Romance Studies, for which she studies Spanish and French. She is interested in pursuing a career in the business side of the fashion industry after she leaves Duke. Mika is also interested in start-ups, sustainable food systems, language learning, and art history. In her free time, she enjoys reading, kickboxing, and exploring new restaurants. Mika joined BOW to find a community of likeminded, ambitious women who were also interested in navigating unconventional business paths. She is excited to serve as Mentorship Chair for the upcoming school year and organize events that will bring more community and organic mentorship relationships to BOW. 
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a target="_blank" href="https://www.linkedin.com/in/mikadeshmukh">LinkedIn</a></strong>
+                                	<strong>
+										<a href="https://www.linkedin.com/in/jenny-y-zhang/" target="_blank">LinkedIn</a>
+									</strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -1052,66 +690,7 @@ Michelle Chen is a senior from Overland Park, KS majoring in Computer Science wi
         </div>
     </div>
 	
-	    <div class="portfolio-modal modal fade" id="gillian" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Gillian Samios</h2>
-                            <h3>Lean-In Chair</h3><br>
-                            <p>
-                            Gillian Samios is a sophomore from Princeton, NJ. She is pursuing a major in Public Policy, a minor in French and a Markets & Management Studies certificate. After joining BOW second semester, Gillian is excited to become more involved through serving as Lean-In Chair this year. She is passionate about finding an intersection between business and philanthropy. Gillian spent the last summer as a writer intern at Princeton University’s Woodrow Wilson School of Foreign and International Affairs. At Duke, Gillian is involved in Business Oriented Women and Lady Blue acapella group and works at the University Center Activities & Events. 
-                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a target="_blank" href="https://www.linkedin.com/in/gillian-samios-63091b139">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	
-        <div class="portfolio-modal modal fade" id="grace-peterson" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Grace Peterson</h2>
-                            <h3>Membership Chair</h3><br>
-                            <p>
-                            Grace Peterson is a sophomore who came to Durham from the San Francisco Bay Area. Last year, she enjoyed jumping into the Duke community by joining the Duke Children's Hospital Committee and BOW's Scholarship Committee. Following her freshman year, Grace pursued a marketing internship in San Francisco for a financial services company. She looks forward to applying the business development, research, and analytical skills she learned over the summer to help strengthen BOW as she serves as the Membership Chair.                            </p>
-                            <ul class="list-inline item-details">
-                                <li>
-                                <strong><a href="https://www.linkedin.com/in/grace-peterson-535807b9" target="_blank">LinkedIn</a></strong>
-                                </li>
-                            </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-	
-	<div class="portfolio-modal modal fade" id="hayden" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="portfolio-modal modal fade" id="vppd" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -1124,12 +703,14 @@ Michelle Chen is a senior from Overland Park, KS majoring in Computer Science wi
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Hayden Manseau</h2>
-                            <h3>Membership Chair</h3><br>
+                            <h3>VP Professional Development</h3><br>
                             <p>
-                            Hayden Manseau is a sophomore from Los Gatos, California pursuing a major in Public Policy, a minor in Psychology, and a certificate in Markets and Management Studies. In addition to her role as Membership Chair in BOW, she works in the Chronicle Business Office and serves as Alumnae Engagement Chair for Kappa Alpha Theta Fraternity. This past summer, she interned in a marketing and social media role with Dragonwing girlgear and worked as a counselor at Athena Camp, a day camp focused on empowering young girls. In her free time, Hayden enjoys running long distance, reading crime novels, and experimenting with new recipes.                          </p>
+							Hayden Manseau is a junior from Los Gatos, California pursuing a major in Public Policy, a minor in Psychology, and a certificate in Markets and Management Studies. Hayden joined BOW her freshman year, and she previously served on BOW’s executive board as Membership Chair. In addition to her role as VP of Professional Development, Hayden works in the Chronicle Business Office, serves as Alumnae Engagement Chair for Kappa Alpha Theta Fraternity, and is involved in One Love, a club that educates students about relationship violence. This past summer, Hayden interned with League of Conservation Voters in their Membership and Online Engagement Internship. Previously, she interned in a marketing and social media role with Dragonwing girlgear as well as a social media role with EcoFlow Tech. In her free time, Hayden enjoys running long distance, reading crime novels, and experimenting with new recipes.	
+							</p>
                             <ul class="list-inline item-details">
                                 <li>
-                                <strong><a href="https://www.linkedin.com/in/hayden-manseau-53a97a135">LinkedIn</a></strong>
+                                    <strong><a target="_blank"  href="www.linkedin.com/in/hayden-manseau-53a97a135">LinkedIn</a>
+                                    </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -1139,8 +720,38 @@ Michelle Chen is a senior from Overland Park, KS majoring in Computer Science wi
             </div>
         </div>
     </div>
+	
+	<div class="portfolio-modal modal fade" id="vpefc" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Angela Zhou</h2>
+                            <h3>VP Events: Finance and Consulting</h3><br>
+                            <p>
+                            Angela Zhou is a sophomore majoring in Environmental Science and minoring Finance. Angela is originally from Seattle, Washington, but attended an international school in Beijing, China. Last summer, Angela interned at an environmental advocacy group in Amman, Jordan as part of the DukeEngage program, and this summer she will be participating in the Citi Sophomore Leadership Program in NYC. Outside of BOW, Angela also serves on the executive board of Duke Business Society and Alexander Hamilton Society. In her free time, Angela enjoys traveling internationally (29 countries!), finding good food everywhere she goes, and scuba diving. 
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a href="http://linkedin.com/in/angelazhou98/" target="_blank">LinkedIn</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div>
 
-		<div class="portfolio-modal modal fade" id="anya" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="portfolio-modal modal fade" id="vpedi" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -1153,12 +764,13 @@ Michelle Chen is a senior from Overland Park, KS majoring in Computer Science wi
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Anya Bali</h2>
-                            <h3>Communications Chair</h3><br>
+                            <h3>VP Events: Diversified Industries</h3><br>
                             <p>
-                            Anya Bali is a junior from South Carolina majoring in Psychology with a minor in Computer Science. She's interested in the business of tech, marketing, and entrepreneurship. In addition to serving as BOW's Communication Chair, Anya is an Events and Marketing Assistant at the Duke Career Center, the Chief Social Media Strategist for @dukestudents, and a Cohort Executive Officer for the Penny Pilgram George Women's Leadership Initiative. In the summer of 2016, she learned about economic and community development through DukeEngage Durham. This summer, she interned in marketing and customer engagement with SaaS startup RocketBolt. Anya will be studying abroad in the fall at the University Carlos III of Madrid before returning to Duke in the spring.                         </p>
+                            Anya Bali is a senior studying marketing and innovation. She is the VP of Events for Diversified Industries and previously served as the BOW Communications Chair. In addition to BOW, Anya is the Editor in Chief of DukeStudents Social Media, the Alumnae and Parent Relations Chair for her sorority, a member of the Hear at Duke podcast organization, and an English tutor with GANO. Professionally, she is interested in working in the business side of tech. This summer, Anya was a Marketing Intern with Amazon. In past years, she worked as a Customer Acquisition and Engagement Intern for RocketBolt and a DukeEngage Community and Economic Development Intern in Durham, NC and Durham, UK. In her free time, Anya loves kickboxing, reading, and traveling with her friends.
+                            </p>
                             <ul class="list-inline item-details">
                                 <li>
-                                <strong><a href="https://www.linkedin.com/in/anyabali">LinkedIn</a></strong>
+                                <strong><a href="linkedin.com/in/anyabali" target="_blank">LinkedIn</a></strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -1167,8 +779,9 @@ Michelle Chen is a senior from Overland Park, KS majoring in Computer Science wi
                 </div>
             </div>
         </div>
-    </div>	
-    <div class="portfolio-modal modal fade" id="marielle-rodgers" tabindex="-1" role="dialog" aria-hidden="true">
+    </div>
+	
+	<div class="portfolio-modal modal fade" id="vpcomm" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -1180,13 +793,14 @@ Michelle Chen is a senior from Overland Park, KS majoring in Computer Science wi
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Marielle Rodgers</h2>
-                            <h3>Executive Vice President</h3><br>
-                            <p>
-                            Marielle Rodgers is a senior from Columbus, Ohio majoring in Economics with a certificate in Decision Sciences. She has served as Duke Marketing Club's VP of Operations and Junior Exec Board Head, the Career Ambassador Team's Employer Relations Chair and BOW's Spring Business Conference chair. This summer she returned as a marketing intern for Microsoft's Digital Stores after working in the Cloud + Enterprise division last summer. Previously, she worked as a grassroots consultant in Nicaragua for the Social Entrepreneur Corps through DukeEngage, and spent last fall pursuing her love of travel by studying at University College London. Excited to find ways to drive change by creating stories and insights using data, in her free time she enjoys puzzles, exploring new foods/places with friends, and discovering new music playlists.                         </p>
+                            <h2>Audrey Kornkven</h2>
+                            <h3>VP Communications</h3><br>
+                            <p>Audrey Kornkven is a sophomore from Northfield, Minnesota. She is pursuing a B.S. in economics with a concentration in finance, as well as a certificate in Politics, Philosophy, and Economics. She is involved in a variety of groups on campus, including Duke’s traveling Model UN team and the POLIS Bipartisan Leadership Team. This summer, she will be interning in the Chief Investment Office at Prudential Financial, and will spend summer 2019 in the investment bank at Morgan Stanley. In her free time, Audrey enjoys hiking, watching movies, and spending time with friends.
+							</p>
                             <ul class="list-inline item-details">
                                 <li>
-                                <strong><a href="https://www.linkedin.com/in/mariellerodgers" target="_blank">LinkedIn</a></strong>
+                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/audrey-kornkven-b0901310a">LinkedIn</a>
+                                    </strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -1197,7 +811,193 @@ Michelle Chen is a senior from Overland Park, KS majoring in Computer Science wi
         </div>
     </div>
 	
-	<div class="portfolio-modal modal fade" id="ekim" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="portfolio-modal modal fade" id="vpmem" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Ellen Scully</h2>
+                            <h3>VP Membership</h3><br>
+                            <p>
+                            Ellen Scully is a sophomore from Rye, New York. She is pursuing a B.A. in Psychology with a minor in Spanish. After joining BOW second semester, Ellen is excited to further her involvement through her role as VP of Membership, where she hopes to increase the sense of community within BOW. This past summer, Ellen interned at the International Rescue Committee in New York City as an Unaccompanied Child Intern. In addition to BOW, Ellen conducts clinical psychology research with a Duke doctoral student about the mental health of menstruating teenage girls in Tanzania. She also serves on the Executive Board of GANO and is a member of Project Heal and the Penny Pilgram George Women's Leadership Initiative Cohort. In her free time, Ellen loves to take yoga classes, read, walk in the Duke Gardens, and spend time with friends and family. 
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                	<a href="https://www.linkedin.com/in/ellen-scully-586734136/" target="_blank"><strong>LinkedIn</strong></a>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	 <div class="portfolio-modal modal fade" id="vpf" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Carolyn Chen</h2>
+                            <h3>VP Finance</h3><br>
+                            <p>
+                            Carolyn is a senior from Blue Bell, Pennsylvania majoring in Statistics with minors in History and Finance. She is passionate about economic development and the intersection of business and social impact, particularly within the private sector. In past summers she has served as a community consultant with DukeEngage: Guatemala  and interned at SAS Institute, a software company in Cary, NC. As a participant of the Duke in New York Financial Markets program, she is excited to return to New York City this summer as a Global Markets summer analyst at Credit Suisse. Outside of BOW, Carolyn is also a tutor for the Duke Athletics Department and research assistant for the Huettel Neuroeconomics Lab. She enjoys reading, hiking, and spending time with friends and family. 
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a href="https://www.linkedin.com/in/carolyn-chen-06253b114/" target="_blank">LinkedIn</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	    <div class="portfolio-modal modal fade" id="vpment" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Mika Deshmukh</h2>
+                            <h3>VP Mentorship</h3><br>
+                            <p>
+                            Mika is a senior majoring in Visual and Media Studies. She is also pursuing a minor in French and the Markets and Management Studies certificate. She served as Mentorship Chair last year, and is excited to continue to foster mentorship relationships and community within BOW this year as Mentorship VP. This summer, Mika will be a summer associate in marketing strategy and planning at McGarryBowen. She is also interested in the business aspect of the fashion industry, entrepreneurship, and sustainable business models. Outside of BOW and class, Mika enjoys DJing for 88.7fm WXDU, reading, kickboxing, learning new languages, and trying out new restaurants. 
+
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/mikadeshmukh/">LinkedIn</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+					</div>
+				</div>
+			</div>
+			</div>
+	</div>
+	
+	    <div class="portfolio-modal modal fade" id="vpentre" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Sonia Hernandez</h2>
+                            <h3>VP Entrepreneurship</h3><br>
+                            <p>
+                            Sonia Hernandez is a senior pursuing a major in Economics with a certificate in Innovation and Entrepreneurship. Her certificate focuses on financing innovation in rural areas, cities, and corporations. She is president and founder of Business Brigades at Duke, a microfinance and microenterprise consulting service organization that works in developing countries. Sonia also works as a program manager at the American Underground, a startup accelerator in the heart of Durham, which selects emerging local businesses for its Startup Stampede program. She is currently working at Lockheed Martin where she is a financial analyst for engineering and technology operations.
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a href="https://www.linkedin.com/in/sonia-hernandez-753946129/" target="_blank">LinkedIn</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="portfolio-modal modal fade" id="vpalum" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Sabrina Hao</h2>
+                            <h3>VP Alumni Relations</h3><br>
+                            <p>Sabrina Hao is a junior from San Francisco, California pursuing a major in Economics with the Finance Concentration and a minor in Creative Writing.  She has previously served on the Marketing Committee for BOW’s Spring Business Conference and is excited to continue to give back to BOW through being the VP of Alumni Relations.  This summer, she will be interning at Morgan Stanley as an Equity Research Sophomore Summer Junior Associate.  Last summer, she worked at Dodge & Cox.  In addition to being a member of BOW, Sabrina is also on the Duke Women’s Club Tennis Team, and in her free time, she enjoys cooking, hiking, running, and spending time with family and friends.
+							</p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/sabrinahao">LinkedIn</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<div class="portfolio-modal modal fade" id="vpegbm" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Ariel Burde</h2>
+                            <h3>VP Events: General Body Meetings</h3><br>
+                            <p>
+                            
+				Ariel Burde is a senior from Lower Merion, Pennsylvania, pursuing a History Major with a Concentration in Economic and Business Cultures, the Information Science Studies Certificate, and the Innovation and Entrepreneurship Certificate. After her freshman year, Ariel explored entrepreneurship interning with the social media startup, Ussie, and continues to work part time for the company. She also works part time for Qnary, writing LinkedIn and Twitter content for executives. Following her sophomore year, Ariel interned at Soros Fund Management. Last summer, Ariel interned at BlackRock in the Portfolio Analytics Group. Ariel applies her academic and business experience as an Ambassador for the Innovation and Entrepreneurship Program at Duke and also works as a Teaching Assistant for the I&E Certificate Capstone classes. In addition to her business experiences, Ariel is a pre-professional, classical ballet dancer who trained at the Bolshoi Ballet Academy in Moscow, Russia and in New York City and Philadelphia. At Duke, Ariel continues to dance on the Dancing Devils – Duke’s Dance Team – and with Duke Ballet Company.
+
+
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/arielburde/">LinkedIn</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+		<div class="portfolio-modal modal fade" id="vpli" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -1210,12 +1010,73 @@ Michelle Chen is a senior from Overland Park, KS majoring in Computer Science wi
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <h2>Ekim Buyuk</h2>
-                            <h3>VP Alumni Relations</h3><br>
-                            <p>Ekim Buyuk is a junior from Westchester, New York double majoring in Statistics and Economics with a concentration in Finance. As the Alumni Relations Chair for BOW, she is committed to increasing the organization's engagement with its alumni through new initiatives. She also serves on the executive committee for Duke ASPIRE and holds a position as a Statistics Teacher's Assistant. In the past two summers, she has interned at the Family Independence Initiative, a non-profit focused on increasing economic mobility in the United States, and in Morgan Stanley's Institutional Equities Division of Sales and Trading. She is excited to study abroad in London and continue serving as the Alumni Relations Chair this year!</p>
+                            <h3>VP Lean-In Initiatives</h3><br>
+                            <p>
+                            Ekim is a senior from Westchester, New York double majoring in Statistics and Economics with a concentration in Finance. As the VP of Lean-In Initiatives for BOW, she is committed to fostering conversation and action within BOW on specific issues that women face on Duke's campus and in the workplace. She also serves on the executive committee for Duke ASPIRE and is pursuing an Honors Thesis in Statistics surrounding the topic of evictions and gentrification. In the past two summers, she has interned in Morgan Stanley's Institutional Equities and Global Capital Markets divisions. She is very excited to be the VP of Lean-In and to work with her incredible Lean-In Committee to create a tighter, more informed community both within BOW and among women at Duke.
+                            </p>
                             <ul class="list-inline item-details">
                                 <li>
-                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/ekim-buyuk-42646210a">LinkedIn</a>
+                                    <strong><a target="_blank"  href="https://www.linkedin.com/in/ekim-buyuk/">LinkedIn</a>
                                     </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+			<div class="portfolio-modal modal fade" id="ccomm" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Lin Zuo</h2>
+                            <h3>Communications Chair</h3><br>
+                            <p>
+                            Lin Zuo is a junior from Shanghai, China, majoring in Statistical Science and Computer Science with a minor in Economics. She is interested in business, technology and sustainability. She joined BOW her freshman year and feels very grateful to different kinds of opportunities provided by BOW. Outside of BOW, Lin serves on the executive board for Duke Consulting Club and Net Impact. She is also a student intern with Sustainable Duke office and an active advocate of sustainable lifestyle. In her spare time, Lin enjoys hanging out with friends and family, good food and movies.                       </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a target="_blank" href="https://www.linkedin.com/in/lin-zuo/">LinkedIn</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>	
+	
+	 <div class="portfolio-modal modal fade" id="ctech" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Sara Behn</h2>
+                            <h3>Technology Chair</h3><br>
+                            <p>
+                            Sara Behn is a sophomore from Highland Park, Illinois. She is pursuing a B.S. in Computer Science with a minor in English and an Innovation and Entrepreneurship certificate. Sara joined BOW her freshman year, and she has really loved being part of such a supportive community of strong and driven women. This summer, she will be a software engineering intern at Aeris Communication, a company on the cutting edge of IoT technology. In addition to BOW, Sara is a undergraduate teaching assistant for Computer Science 201 and an associate editor of The Archive, Duke's premiere literary magazine. When she's not coding, Sara enjoys playing soccer, writing poetry, and working on crosswords.
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a href="https://www.linkedin.com/in/sara-behn-605a62142/" target="_blank">LinkedIn</a></strong>
                                 </li>
                             </ul>
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
@@ -1226,6 +1087,184 @@ Michelle Chen is a senior from Overland Park, KS majoring in Computer Science wi
         </div>
     </div>
 
+    <div class="portfolio-modal modal fade" id="calum" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Cole Zaharris</h2>
+                            <h3>Alumni Relations Chair</h3><br>
+                            <p>Cole Zaharris is a sophomore from Baltimore, Maryland in the Trinity College of Arts & Sciences. As Alumni Relations Chair for BOW, she will work to keep alumni engaged and connected in the current BOW community through extending our alumni-member mentorships and through events such as city-wide meet-ups. She also mentors incoming freshman as a First Year Advisory Counselor and plays on the Duke Club Field Hockey team. In the past two summers, she has interned at Triptent, a digital media and advertising agency, and at Uli Herzner Designs, a fashion company, in New York City. She also studied this summer at the London School of Economics. She is looking forward to serving as Alumni Relations Chair this year! </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                    <strong><a target="_blank"  href="www.linkedin.com/in/cole-zaharris">LinkedIn</a>
+                                    </strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    
+    <div class="portfolio-modal modal fade" id="csbc" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2> Ha Nguyen </h2>
+                            <h3>Spring Business Conference Chair</h3><br>
+                            <p>
+                          	Ha Nguyen is a sophomore from Garden Grove, California. She is pursuing a major in International Comparative Studies and looking to explore and delve deeper into Computer Science as a potential major. Beyond her role as VP of Spring Business Conference, Ha is passionate about mentoring, celebrating the success of others, and empowering 1G/low-income students in higher education and business careers; she is beyond excited to get to know the inspiring women of BOW and walk alongside them in their journeys. At Duke, Ha is also involved with the Career Center as a student ambassador and with the Community Empowerment Fund as a financial advocate. She spent her freshman summer studying abroad in Beijing, China and shadowing business professionals in California. Ha is also a Hufflepuff who loves crocs, medium-rare steaks, and guacamole.   
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a href="https://linkedin.com/in/ha-nguyen-62a143152/" target="_blank">LinkedIn</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<div class="portfolio-modal modal fade" id="cmem" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Erica Wang</h2>
+                            <h3>Membership Chair</h3><br>
+                            <p>
+                            Erica Wang is a sophomore from Hershey, Pennsylvania pursuing a double major in Economics and Chinese. In addition to her role as Membership Chair in BOW, she is involved with the Penny Pilgrim Women’s Leadership Initiative and Dzialga Women in Finance Initiative, and is an advocate for clean water through the nonprofit organization Thirst Project. This past summer, she interned at an education startup in Ningbo, China, where she developed business and marketing strategy. In her free time, Erica enjoys running long distance, discovering new music, and engaging in social activism.                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a href="http://www.linkedin.com/in/erica-wang" target="_blank">LinkedIn</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="clog" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Kimberly DelSignore</h2>
+                            <h3>Logistics Chair</h3><br>
+                            <p>
+                            Kimberly DelSignore is a sophomore from Pittsburgh, Pennsylvania. She is currently working towards an Economics  B.S. with a Finance Concentration and is also considering pursuing a French Minor and Markets and Management Certificate. Kimberly joined BOW her freshman year and served on the Spring Business Conference Logistics Committee. She is interested in helping BOW grow through creating efficiency in the various events that take place as well as opening more channels for communication between the executive board and its members. This summer, Kimberly will be participating in DukeEngage Ahmedabad, India, where she hopes to share her passion of finance with the women in that community. In addition to BOW, Kimberly works as an Application Consultant for CollegeVine and is a member of Smart Woman's Securities. In her free time, Kimberly enjoys playing tennis with friends, taking Pilates classes, watching Marvel movies, and spending time with family and friends. 
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a target="_blank" href="http://www.linkedin.com/in/kimberly-delsignore7578a2125">LinkedIn</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="portfolio-modal modal fade" id="cment" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Mary wang</h2>
+                            <h3>Mentorship Chair</h3><br>
+                            <p>
+                           Mary is a sophomore from northern New Jersey planning to major in Economics with a minor in Mathematics. She is interested in pursuing a career in Finance, and has spent the previous summer interning with the Department of Treasury at the Office of Financial Research. Outside of BOW, Mary is also passionate about community service, painting, and Duke basketball. She is excited to be able to work towards improving BOW's mentorship program, fostering stronger relationships between the incredible women who make BOW the organization that it is today. 
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a target="_blank" href="https://www.linkedin.com/in/mary-wang/">LinkedIn</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	    <div class="portfolio-modal modal fade" id="cdi" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>Elle Chen</h2>
+                            <h3>Diversity & Inclusion</h3><br>
+                            <p>
+                           Elle Chen is a senior from Miami, Florida. She is pursuing a B.A in Political Science with a minor in Economics and a Philosophy, Politics, and Economics Certificate. Elle joined BOW as a Junior transfer student. In addition to BOW, Elle has been involved in providing campus-wide free menstrual hygiene products and launching the Diversity Mentorship Program in Duke Student Government. This summer Elle will be interning at Credit Suisse in its Investment Banking Division. She has spent her previous summers as a Girls Who Invest Scholar and as a summer analyst for Greenspring Assoc. Venture Capital. Elle has also had experience in government with internships at Senator Bill Nelson’s Office, the Miami-Dade Office of the State Attorney, and the Office of District 8 Commissioner Cava. At Duke, Elle is also a member of Delta Sigma Pi Business Fraternity, a member of Ilyria SLG. In her free time, Elle enjoys playing Tetris (she’s number one in Florida Survival), going to Soul Cycle, and spending time with friends.
+                            </p>
+                            <ul class="list-inline item-details">
+                                <li>
+                                <strong><a target="_blank" href="https://www.linkedin.com/in/leemay-elle-chen/">LinkedIn</a></strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	
 
 
     <!-- jQuery -->
