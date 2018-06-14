@@ -41,8 +41,21 @@
 </head>
 
 <body>
- 
-    <div class="brand animated fadeInUp">DUKE BOW</div>
+	
+<SCRIPT>
+function passWord() {
+var pass1 = prompt('Please Enter Your Password');
+if (pass1 == "BlueBow1819") {
+alert('PasswordCorrect');
+window.open('members.html');
+}
+alert('Access Denied, Password Incorrect');
+return " ";
+} 
+</SCRIPT>
+
+	
+<div class="brand animated fadeInUp">DUKE BOW</div>
     <div class="address-bar animated fadeInUp">Duke University | Durham, NC | <a href="mailto:dukebow.assoc@egmail.com?Subject=Website%20Inquiry">dukebow.assoc@gmail.com</a></div>
 
     <!-- Navigation -->
@@ -57,31 +70,34 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="../../index.html">Duke BOW</a>
+                <a class="navbar-brand" href="index.html">Duke BOW</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
-                    <li>
-                        <a href="../../index.html" class="hvr-underline-from-center">Home</a>
+                   <li>
+                        <a href="index.html" class="hvr-underline-from-center">Home</a>
                     </li>
                     <li>
-                        <a href="../../about.html" class="hvr-underline-from-center">What we do</a>
+                        <a href="about.html" class="hvr-underline-from-center">What we do</a>
                     </li>
                     <li>
-                        <a href="../../leadership.html" class="hvr-underline-from-center">Leadership</a>
+                        <a href="leadership.html" class="hvr-underline-from-center">Leadership</a>
                     </li>
                     <li>
-                        <a href="../../apply.html" class="hvr-underline-from-center">Apply</a>
+                        <a href="apply.html" class="hvr-underline-from-center">Apply</a>
                     </li>
                     <li>
-                        <a href="../../social.html" class="hvr-underline-from-center">Social</a>
+                        <a href="social.html" class="hvr-underline-from-center">Social</a>
                     </li>
                     <li>
-                        <a href="../../contact.html" class="hvr-underline-from-center">Contact</a>
+                        <a href="contact.html" class="hvr-underline-from-center">Contact</a>
                     </li>
                     <li>
-                        <a href="../../blog-home.html" class="hvr-underline-from-center" id="new">New! Spotlight Blog</a>
+                        <a href="blog-home.html" class="hvr-underline-from-center">Spotlight Blog</a>
+                    </li>
+					<li>
+                        <a href="#" class="hvr-underline-from-center" onClick="passWord()">Members Only</a>
                     </li>
                 </ul>
             </div>
@@ -168,7 +184,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; 2017 Duke Association for Business Oriented Women.</p>
+                    <p>Copyright &copy; 2018 Duke Association for Business Oriented Women.</p>
                 </div>
             </div>
         </div>
