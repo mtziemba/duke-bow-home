@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+ background-image: url("1.png");
+}
+
+/*------------------------------ NAVIGATION BAR ------------------------------*/
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+/* Right-aligned link */
+.topnav a.right {
+  float: right;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #1C3273;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: pink;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+.img{
+  float: left;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Main column */
+.main {  
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+.mainPic {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+p{
+  text-align: center;
+  font-size:20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  line-height: 30px;
+  letter-spacing: 0.25em;
+}
+
+h2{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: Georgia;
+}
+
+h3{
+  letter-spacing: 0.2em;
+  padding-left: 20%;
+  padding-right: 20%;
+  font-size: 14px;
+  font-family: Courier;
+
+}
+.slide{
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+                                /*SLIDESHOW*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+/*------------------------------ sponsers ------------------------------*/
+h1{
+  font-size: 25px;
+  font-family: Georgia;
+  padding-left: 5%;
+}
+.sponsers{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+/*------------------------------ FOOTER ------------------------------*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: #1C3273;
+  text-align: center;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+/* Style all font awesome icons */
+.fa {
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: blue;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: #55ACEE;
+}
+
+.fa-instagram {
+  color: #DD2A7B;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body background="1.png" >
+
+
+<div class="container">
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" >D U K E &nbsp;&nbsp;U N I V E R S I T Y</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfEJ1rL2uTxMlXuBytGs2FJ5mQrSWwj-UQA-FeFOt4R3Y1YvA/viewform" class="right">RSVP</a>
+      <a href="faqs.html" class="right">f a q s</a>
+      <a href="schedule.html" class="right">s c h e d u l e</a>
+      <a href="speakers.html" class="right">s p e a k e r s</a>
+      <a href="about.html" class="right">a b o u t</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+</div>
+
+<div class="row">
+  <div class="main">
+    
+    <img src="GroupPicture.jpg" alt="Mountains" class="mainPic" style="width:100%">
+    
+    <center><h2>Welcome to Duke University Business Oriented Women's Spring Business Conference</h2></center>
+    <center><h3>AN UNFORGETTABLE SPEAKER SERIES FROM POWERFUL WOMEN CHANGING THE TECHNOLOGY AND BUSINESS INDUSTRY</h3></center>
+
+    <p>The Duke Association for Business Oriented Women seeks to empower business oriented female students by promoting education, experience, and exchange between interested students and outstanding industry professionals.</p>
+
+    <p>We serve to motivate and prepare young women in the Duke University community for careers in all types of business; be it advertising, consulting, finance, marketing, or public relations.</p>
+
+    <p>Duke BOW strives to accomplish this goal through student-led forums, skill-building workshops, and various guest speaker events that exemplify the triumphs of professional women. Such activities enable Duke women to guide their personal and professional development and prepare them for the diverse career opportunities awaiting them in the business world.</p>
+
+    <br>
+    <center><h3>Past Conferences</h3></center>
+
+      <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <img src="2018.png" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="2017.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides fade">
+      <img src="2016.jpg" style="width:100%">
+    </div>
+
+     <div class="mySlides fade">
+      <img src="2014.jpg" style="width:100%">
+    </div>
+  </div>
+  <br>
+
+    <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+      }
+    </script>
+
+    <p>The Spring Business Conference (SBC) is BOW’s signature event that invites recognized business leaders around the world to address BOW members, the Duke community composed of both undergraduate and graduate students, and beyond. Each year’s event centers on a different business-related theme. </p>
+
+    <p>Past Spring Business Conferences have brought together over 500 attendees from Duke University, the city of Durham, and many high schools and colleges from around North Carolina. This year, SBC continues to expand to include attendees from various universities nation-wide.</p>
+
+  </div>
+</div>
+
+
+<h1>Our Sponsors</h1>
+<img src="sponsors.png" style="width:100%" class="sponsers">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="footer">
+    <h2>Business Oriented Women Spring Business Conference</h2>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com/Duke.BOW/" class="fa fa-facebook"></a>
+  </div>
+
+
+</body>
+</html>
+
