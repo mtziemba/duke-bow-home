@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+ background-image: url("1.png");
+}
+
+/*------------------------------ NAVIGATION BAR ------------------------------*/
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+/* Right-aligned link */
+.topnav a.right {
+  float: right;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #1C3273;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: pink;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 5px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.container2 {
+  position: relative;
+  width: 100%;
+}
+
+
+                                /*SLIDESHOW*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+                                      /*end*/
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
+}
+
+.container2:hover .overlay {
+  opacity: .5;
+}
+
+.text {
+  color: black;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*------------------------------ FOOTER ------------------------------*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FBFBFB;
+  color: #1C3273;
+  text-align: center;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+h2{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-family: Georgia;
+}
+
+/* Style all font awesome icons */
+.fa {
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: blue;
+}
+
+/* Twitter */
+.fa-twitter {
+  color: #55ACEE;
+}
+
+.fa-instagram {
+  color: #DD2A7B;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+}
+
+</style>
+</head>
+<!-- ------------------------------- HTML ------------------------------- -->
+<body background="1.png">
+
+
+  <div class="container">
+    <div class="topnav" id="myTopnav">
+      <a href="index.html" >D U K E &nbsp;&nbsp;U N I V E R S I T Y</a>
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfEJ1rL2uTxMlXuBytGs2FJ5mQrSWwj-UQA-FeFOt4R3Y1YvA/viewform" class="right">RSVP</a>
+      <a href="faqs.html" class="right">f a q s</a>
+      <a href="schedule.html" class="right">s c h e d u l e</a>
+      <a href="speakers.html" class="right">s p e a k e r s</a>
+      <a href="about.html" class="right">a b o u t</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i></a>
+    </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+<div class="main">
+  <center><h2>PROGRAM</h2></center>
+  <hr>
+<!-- Photo Grid -->
+  <div class="row"> 
+    <div class="column">
+
+      <a href="tester.html">
+          <div class="container2">
+            <img src="sched.png" style="width:100%">
+          </div>
+      </a>
+    </div>
+
+
+    <div class="column">
+      <div class="container2">
+          <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <img src="page1.png" style="width:100%">
+            </div>
+
+<!--             <div class="mySlides fade">
+              <img src="page2.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="page3.png" style="width:100%">
+            </div>
+
+             <div class="mySlides fade">
+              <img src="page4.png" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+              <img src="page5.png" style="width:100%">
+            </div> -->
+
+          </div>
+      </div>
+    </div>
+
+        <script>
+      var slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none"; 
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1} 
+        slides[slideIndex-1].style.display = "block"; 
+        setTimeout(showSlides, 4000); // Change image every 2 seconds
+      }
+    </script>
+
+  </div>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="footer">
+    <h2>Business Oriented Women Spring Business Conference</h2>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Add font awesome icons -->
+    <a href="https://www.facebook.com/Duke.BOW/" class="fa fa-facebook"></a>
+  </div>
+
+</div>
+</body>
+</html>
+
+
+
+
